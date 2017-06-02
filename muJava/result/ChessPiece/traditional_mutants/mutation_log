@@ -1,0 +1,258 @@
+AORB_1:96:java.lang.String_getPosition():row + 1 => row * 1
+AORB_2:96:java.lang.String_getPosition():row + 1 => row / 1
+AORB_3:96:java.lang.String_getPosition():row + 1 => row % 1
+AORB_4:96:java.lang.String_getPosition():row + 1 => row - 1
+AORB_5:140:void_setPosition(java.lang.String):digit - '0' => digit * '0'
+AORB_6:140:void_setPosition(java.lang.String):digit - '0' => digit / '0'
+AORB_7:140:void_setPosition(java.lang.String):digit - '0' => digit % '0'
+AORB_8:140:void_setPosition(java.lang.String):digit - '0' => digit + '0'
+AORB_9:140:void_setPosition(java.lang.String):digit - '0' - 1 => (digit - '0') * 1
+AORB_10:140:void_setPosition(java.lang.String):digit - '0' - 1 => (digit - '0') / 1
+AORB_11:140:void_setPosition(java.lang.String):digit - '0' - 1 => (digit - '0') % 1
+AORB_12:140:void_setPosition(java.lang.String):digit - '0' - 1 => digit - '0' + 1
+AORB_13:148:java.lang.String_onePossibleMove(int,int):'a' + column => 'a' * column
+AORB_14:148:java.lang.String_onePossibleMove(int,int):'a' + column => 'a' / column
+AORB_15:148:java.lang.String_onePossibleMove(int,int):'a' + column => 'a' % column
+AORB_16:148:java.lang.String_onePossibleMove(int,int):'a' + column => 'a' - column
+AORB_17:149:java.lang.String_onePossibleMove(int,int):'1' + row => '1' * row
+AORB_18:149:java.lang.String_onePossibleMove(int,int):'1' + row => '1' / row
+AORB_19:149:java.lang.String_onePossibleMove(int,int):'1' + row => '1' % row
+AORB_20:149:java.lang.String_onePossibleMove(int,int):'1' + row => '1' - row
+AOIU_1:33:int_getRow():row => -row
+AOIU_2:38:int_getColumn():column => -column
+AOIU_3:43:void_setRow(int):i => -i
+AOIU_4:48:void_setColumn(int):i => -i
+AOIU_5:59:java.lang.String_getPosition():column => -column
+AOIU_6:103:void_setPosition(java.lang.String):letter => -letter
+AOIU_7:140:void_setPosition(java.lang.String):digit => -digit
+AOIU_8:151:java.lang.String_onePossibleMove(int,int):columnChar => -columnChar
+AOIU_9:152:java.lang.String_onePossibleMove(int,int):rowChar => -rowChar
+AOIS_1:33:int_getRow():row => row++
+AOIS_2:33:int_getRow():row => row--
+AOIS_3:38:int_getColumn():column => column++
+AOIS_4:38:int_getColumn():column => column--
+AOIS_5:43:void_setRow(int):i => ++i
+AOIS_6:43:void_setRow(int):i => --i
+AOIS_7:43:void_setRow(int):i => i++
+AOIS_8:43:void_setRow(int):i => i--
+AOIS_9:48:void_setColumn(int):i => ++i
+AOIS_10:48:void_setColumn(int):i => --i
+AOIS_11:48:void_setColumn(int):i => i++
+AOIS_12:48:void_setColumn(int):i => i--
+AOIS_13:59:java.lang.String_getPosition():column => column++
+AOIS_14:59:java.lang.String_getPosition():column => column--
+AOIS_15:96:java.lang.String_getPosition():letter => ++letter
+AOIS_16:96:java.lang.String_getPosition():letter => --letter
+AOIS_17:96:java.lang.String_getPosition():letter => letter++
+AOIS_18:96:java.lang.String_getPosition():letter => letter--
+AOIS_19:96:java.lang.String_getPosition():row => ++row
+AOIS_20:96:java.lang.String_getPosition():row => --row
+AOIS_21:96:java.lang.String_getPosition():row => row++
+AOIS_22:96:java.lang.String_getPosition():row => row--
+AOIS_23:103:void_setPosition(java.lang.String):letter => letter++
+AOIS_24:103:void_setPosition(java.lang.String):letter => letter--
+AOIS_25:140:void_setPosition(java.lang.String):digit => ++digit
+AOIS_26:140:void_setPosition(java.lang.String):digit => --digit
+AOIS_27:140:void_setPosition(java.lang.String):digit => digit++
+AOIS_28:140:void_setPosition(java.lang.String):digit => digit--
+AOIS_29:146:java.lang.String_onePossibleMove(int,int):column => ++column
+AOIS_30:146:java.lang.String_onePossibleMove(int,int):column => --column
+AOIS_31:146:java.lang.String_onePossibleMove(int,int):column => column++
+AOIS_32:146:java.lang.String_onePossibleMove(int,int):column => column--
+AOIS_33:146:java.lang.String_onePossibleMove(int,int):column => ++column
+AOIS_34:146:java.lang.String_onePossibleMove(int,int):column => --column
+AOIS_35:146:java.lang.String_onePossibleMove(int,int):column => column++
+AOIS_36:146:java.lang.String_onePossibleMove(int,int):column => column--
+AOIS_37:147:java.lang.String_onePossibleMove(int,int):row => ++row
+AOIS_38:147:java.lang.String_onePossibleMove(int,int):row => --row
+AOIS_39:147:java.lang.String_onePossibleMove(int,int):row => row++
+AOIS_40:147:java.lang.String_onePossibleMove(int,int):row => row--
+AOIS_41:147:java.lang.String_onePossibleMove(int,int):row => ++row
+AOIS_42:147:java.lang.String_onePossibleMove(int,int):row => --row
+AOIS_43:147:java.lang.String_onePossibleMove(int,int):row => row++
+AOIS_44:147:java.lang.String_onePossibleMove(int,int):row => row--
+AOIS_45:148:java.lang.String_onePossibleMove(int,int):column => ++column
+AOIS_46:148:java.lang.String_onePossibleMove(int,int):column => --column
+AOIS_47:148:java.lang.String_onePossibleMove(int,int):column => column++
+AOIS_48:148:java.lang.String_onePossibleMove(int,int):column => column--
+AOIS_49:149:java.lang.String_onePossibleMove(int,int):row => ++row
+AOIS_50:149:java.lang.String_onePossibleMove(int,int):row => --row
+AOIS_51:149:java.lang.String_onePossibleMove(int,int):row => row++
+AOIS_52:149:java.lang.String_onePossibleMove(int,int):row => row--
+AOIS_53:151:java.lang.String_onePossibleMove(int,int):columnChar => columnChar++
+AOIS_54:151:java.lang.String_onePossibleMove(int,int):columnChar => columnChar--
+AOIS_55:152:java.lang.String_onePossibleMove(int,int):rowChar => rowChar++
+AOIS_56:152:java.lang.String_onePossibleMove(int,int):rowChar => rowChar--
+ROR_1:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   column > 0
+ROR_2:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   column < 0
+ROR_3:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   column <= 0
+ROR_4:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   column == 0
+ROR_5:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   column != 0
+ROR_6:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   true
+ROR_7:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>   false
+ROR_8:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   column > 7
+ROR_9:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   column >= 7
+ROR_10:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   column < 7
+ROR_11:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   column == 7
+ROR_12:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   column != 7
+ROR_13:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   true
+ROR_14:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>   false
+ROR_15:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   row > 0
+ROR_16:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   row < 0
+ROR_17:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   row <= 0
+ROR_18:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   row == 0
+ROR_19:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   row != 0
+ROR_20:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   true
+ROR_21:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>   false
+ROR_22:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   row > 7
+ROR_23:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   row >= 7
+ROR_24:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   row < 7
+ROR_25:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   row == 7
+ROR_26:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   row != 7
+ROR_27:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   true
+ROR_28:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>   false
+COR_1:146:java.lang.String_onePossibleMove(int,int): column >= 0 && column <= 7  =>   column >= 0 || column <= 7
+COR_2:146:java.lang.String_onePossibleMove(int,int): column >= 0 && column <= 7  =>   column >= 0 ^ column <= 7
+COR_3:147:java.lang.String_onePossibleMove(int,int): row >= 0 && row <= 7  =>   row >= 0 || row <= 7
+COR_4:147:java.lang.String_onePossibleMove(int,int): row >= 0 && row <= 7  =>   row >= 0 ^ row <= 7
+COI_1:146:java.lang.String_onePossibleMove(int,int): column >= 0  =>  !(column >= 0)
+COI_2:146:java.lang.String_onePossibleMove(int,int): column <= 7  =>  !(column <= 7)
+COI_3:146:java.lang.String_onePossibleMove(int,int): column >= 0 && column <= 7  =>  !(column >= 0 && column <= 7)
+COI_4:147:java.lang.String_onePossibleMove(int,int): row >= 0  =>  !(row >= 0)
+COI_5:147:java.lang.String_onePossibleMove(int,int): row <= 7  =>  !(row <= 7)
+COI_6:147:java.lang.String_onePossibleMove(int,int): row >= 0 && row <= 7  =>  !(row >= 0 && row <= 7)
+LOI_1:33:int_getRow():row => ~row
+LOI_2:38:int_getColumn():column => ~column
+LOI_3:43:void_setRow(int):i => ~i
+LOI_4:48:void_setColumn(int):i => ~i
+LOI_5:59:java.lang.String_getPosition():column => ~column
+LOI_6:96:java.lang.String_getPosition():letter => ~letter
+LOI_7:96:java.lang.String_getPosition():row => ~row
+LOI_8:103:void_setPosition(java.lang.String):letter => ~letter
+LOI_9:140:void_setPosition(java.lang.String):digit => ~digit
+LOI_10:146:java.lang.String_onePossibleMove(int,int):column => ~column
+LOI_11:146:java.lang.String_onePossibleMove(int,int):column => ~column
+LOI_12:147:java.lang.String_onePossibleMove(int,int):row => ~row
+LOI_13:147:java.lang.String_onePossibleMove(int,int):row => ~row
+LOI_14:148:java.lang.String_onePossibleMove(int,int):column => ~column
+LOI_15:149:java.lang.String_onePossibleMove(int,int):row => ~row
+LOI_16:151:java.lang.String_onePossibleMove(int,int):columnChar => ~columnChar
+LOI_17:152:java.lang.String_onePossibleMove(int,int):rowChar => ~rowChar
+SDL_1:28:ChessPiece(ChessBoard,ChessPiece.Color): this.board = board; this.color = color;  =>   this.color = color;
+SDL_2:28:ChessPiece(ChessBoard,ChessPiece.Color): this.board = board; this.color = color;  =>   this.board = board;
+SDL_3:34:int_getRow(): return row;  =>   return 0;
+SDL_4:39:int_getColumn(): return column;  =>   return 0;
+SDL_5:43:void_setRow(int): this.row = i;  =>  
+SDL_6:48:void_setColumn(int): this.column = i;  =>  
+SDL_7:60:java.lang.String_getPosition(): char letter; switch (column) { case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' '; } return new java.lang.String( \"\" + letter + (row + 1) );  =>   char letter; return new java.lang.String( \"\" + letter + (row + 1) );
+SDL_8:62:java.lang.String_getPosition(): letter = 'a'; break;  =>   break;
+SDL_9:62:java.lang.String_getPosition(): letter = 'a'; break;  =>   letter = 'a';
+SDL_10:66:java.lang.String_getPosition(): letter = 'b'; break;  =>   break;
+SDL_11:66:java.lang.String_getPosition(): letter = 'b'; break;  =>   letter = 'b';
+SDL_12:70:java.lang.String_getPosition(): letter = 'c'; break;  =>   break;
+SDL_13:70:java.lang.String_getPosition(): letter = 'c'; break;  =>   letter = 'c';
+SDL_14:74:java.lang.String_getPosition(): letter = 'd'; break;  =>   break;
+SDL_15:74:java.lang.String_getPosition(): letter = 'd'; break;  =>   letter = 'd';
+SDL_16:78:java.lang.String_getPosition(): letter = 'e'; break;  =>   break;
+SDL_17:78:java.lang.String_getPosition(): letter = 'e'; break;  =>   letter = 'e';
+SDL_18:82:java.lang.String_getPosition(): letter = 'f'; break;  =>   break;
+SDL_19:82:java.lang.String_getPosition(): letter = 'f'; break;  =>   letter = 'f';
+SDL_20:86:java.lang.String_getPosition(): letter = 'g'; break;  =>   break;
+SDL_21:86:java.lang.String_getPosition(): letter = 'g'; break;  =>   letter = 'g';
+SDL_22:90:java.lang.String_getPosition(): letter = 'h'; break;  =>   break;
+SDL_23:90:java.lang.String_getPosition(): letter = 'h'; break;  =>   letter = 'h';
+SDL_24:93:java.lang.String_getPosition(): letter = ' ';  =>  
+SDL_25:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_26:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_27:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_28:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_29:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_30:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_31:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';
+SDL_32:91:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; default  :     letter = ' ';
+SDL_33:92:java.lang.String_getPosition(): case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break; default  :     letter = ' ';  =>   case 0 :     letter = 'a';     break; case 1 :     letter = 'b';     break; case 2 :     letter = 'c';     break; case 3 :     letter = 'd';     break; case 4 :     letter = 'e';     break; case 5 :     letter = 'f';     break; case 6 :     letter = 'g';     break; case 7 :     letter = 'h';     break;
+SDL_34:97:java.lang.String_getPosition(): return new java.lang.String( \"\" + letter + (row + 1) );  =>   return \"\";
+SDL_35:104:void_setPosition(java.lang.String): char letter = position.charAt( 0 ); char digit = position.charAt( 1 ); switch (letter) { case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0; } row = digit - '0' - 1;  =>   char letter = position.charAt( 0 ); char digit = position.charAt( 1 ); row = digit - '0' - 1;
+SDL_36:140:void_setPosition(java.lang.String): char letter = position.charAt( 0 ); char digit = position.charAt( 1 ); switch (letter) { case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0; } row = digit - '0' - 1;  =>   char letter = position.charAt( 0 ); char digit = position.charAt( 1 ); switch (letter) { case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0; }
+SDL_37:106:void_setPosition(java.lang.String): column = 0; break;  =>   break;
+SDL_38:106:void_setPosition(java.lang.String): column = 0; break;  =>   column = 0;
+SDL_39:110:void_setPosition(java.lang.String): column = 1; break;  =>   break;
+SDL_40:110:void_setPosition(java.lang.String): column = 1; break;  =>   column = 1;
+SDL_41:114:void_setPosition(java.lang.String): column = 2; break;  =>   break;
+SDL_42:114:void_setPosition(java.lang.String): column = 2; break;  =>   column = 2;
+SDL_43:118:void_setPosition(java.lang.String): column = 3; break;  =>   break;
+SDL_44:118:void_setPosition(java.lang.String): column = 3; break;  =>   column = 3;
+SDL_45:122:void_setPosition(java.lang.String): column = 4; break;  =>   break;
+SDL_46:122:void_setPosition(java.lang.String): column = 4; break;  =>   column = 4;
+SDL_47:126:void_setPosition(java.lang.String): column = 5; break;  =>   break;
+SDL_48:126:void_setPosition(java.lang.String): column = 5; break;  =>   column = 5;
+SDL_49:130:void_setPosition(java.lang.String): column = 6; break;  =>   break;
+SDL_50:130:void_setPosition(java.lang.String): column = 6; break;  =>   column = 6;
+SDL_51:134:void_setPosition(java.lang.String): column = 7; break;  =>   break;
+SDL_52:134:void_setPosition(java.lang.String): column = 7; break;  =>   column = 7;
+SDL_53:137:void_setPosition(java.lang.String): column = 0;  =>  
+SDL_54:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_55:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_56:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_57:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_58:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_59:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_60:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'h' :     column = 7;     break; default  :     column = 0;
+SDL_61:135:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; default  :     column = 0;
+SDL_62:136:void_setPosition(java.lang.String): case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break; default  :     column = 0;  =>   case 'a' :     column = 0;     break; case 'b' :     column = 1;     break; case 'c' :     column = 2;     break; case 'd' :     column = 3;     break; case 'e' :     column = 4;     break; case 'f' :     column = 5;     break; case 'g' :     column = 6;     break; case 'h' :     column = 7;     break;
+SDL_63:147:java.lang.String_onePossibleMove(int,int): java.lang.String returnString = \"\"; if (column >= 0 && column <= 7) {     if (row >= 0 && row <= 7) {         char columnChar = (char) ('a' + column);         char rowChar = (char) ('1' + row);         java.lang.StringBuilder sb = new java.lang.StringBuilder();         sb.append( columnChar );         sb.append( rowChar );         return returnString + sb.toString();     } } return null;  =>   java.lang.String returnString = \"\"; return null;
+SDL_64:147:java.lang.String_onePossibleMove(int,int): if (row >= 0 && row <= 7) {     char columnChar = (char) ('a' + column);     char rowChar = (char) ('1' + row);     java.lang.StringBuilder sb = new java.lang.StringBuilder();     sb.append( columnChar );     sb.append( rowChar );     return returnString + sb.toString(); }  =>  
+SDL_65:156:java.lang.String_onePossibleMove(int,int): if (column >= 0 && column <= 7) {     if (row >= 0 && row <= 7) {         char columnChar = (char) ('a' + column);         char rowChar = (char) ('1' + row);         java.lang.StringBuilder sb = new java.lang.StringBuilder();         sb.append( columnChar );         sb.append( rowChar );         return returnString + sb.toString();     } }  =>   if (true) {     if (row >= 0 && row <= 7) {         char columnChar = (char) ('a' + column);         char rowChar = (char) ('1' + row);         java.lang.StringBuilder sb = new java.lang.StringBuilder();         sb.append( columnChar );         sb.append( rowChar );         return returnString + sb.toString();     } }
+SDL_66:153:java.lang.String_onePossibleMove(int,int): char columnChar = (char) ('a' + column); char rowChar = (char) ('1' + row); java.lang.StringBuilder sb = new java.lang.StringBuilder(); sb.append( columnChar ); sb.append( rowChar ); return returnString + sb.toString();  =>   char columnChar = (char) ('a' + column); char rowChar = (char) ('1' + row); java.lang.StringBuilder sb = new java.lang.StringBuilder(); sb.append( rowChar ); return returnString + sb.toString();
+SDL_67:153:java.lang.String_onePossibleMove(int,int): char columnChar = (char) ('a' + column); char rowChar = (char) ('1' + row); java.lang.StringBuilder sb = new java.lang.StringBuilder(); sb.append( columnChar ); sb.append( rowChar ); return returnString + sb.toString();  =>   char columnChar = (char) ('a' + column); char rowChar = (char) ('1' + row); java.lang.StringBuilder sb = new java.lang.StringBuilder(); sb.append( columnChar ); return returnString + sb.toString();
+SDL_68:155:java.lang.String_onePossibleMove(int,int): if (row >= 0 && row <= 7) {     char columnChar = (char) ('a' + column);     char rowChar = (char) ('1' + row);     java.lang.StringBuilder sb = new java.lang.StringBuilder();     sb.append( columnChar );     sb.append( rowChar );     return returnString + sb.toString(); }  =>   if (true) {     char columnChar = (char) ('a' + column);     char rowChar = (char) ('1' + row);     java.lang.StringBuilder sb = new java.lang.StringBuilder();     sb.append( columnChar );     sb.append( rowChar );     return returnString + sb.toString(); }
+SDL_69:154:java.lang.String_onePossibleMove(int,int): return returnString + sb.toString();  =>   return \"\";
+SDL_70:157:java.lang.String_onePossibleMove(int,int): return null;  =>   return \"\";
+VDL_1:96:java.lang.String_getPosition():"" + letter => ""
+VDL_2:96:java.lang.String_getPosition():row + 1 => 1
+VDL_3:140:void_setPosition(java.lang.String):digit - '0' => '0'
+VDL_4:146:java.lang.String_onePossibleMove(int,int):column >= 0 => 0
+VDL_5:146:java.lang.String_onePossibleMove(int,int):column <= 7 => 7
+VDL_6:147:java.lang.String_onePossibleMove(int,int):row >= 0 => 0
+VDL_7:147:java.lang.String_onePossibleMove(int,int):row <= 7 => 7
+VDL_8:148:java.lang.String_onePossibleMove(int,int):'a' + column => 'a'
+VDL_9:149:java.lang.String_onePossibleMove(int,int):'1' + row => '1'
+VDL_10:153:java.lang.String_onePossibleMove(int,int):returnString + sb.toString() => sb.toString()
+ODL_1:96:java.lang.String_getPosition():"" + letter => ""
+ODL_2:96:java.lang.String_getPosition():"" + letter => letter
+ODL_3:96:java.lang.String_getPosition():row + 1 => row
+ODL_4:96:java.lang.String_getPosition():row + 1 => 1
+ODL_5:96:java.lang.String_getPosition():"" + letter + (row + 1) => "" + letter
+ODL_6:96:java.lang.String_getPosition():"" + letter + (row + 1) => row + 1
+ODL_7:140:void_setPosition(java.lang.String):digit - '0' => digit
+ODL_8:140:void_setPosition(java.lang.String):digit - '0' => '0'
+ODL_9:140:void_setPosition(java.lang.String):digit - '0' - 1 => digit - '0'
+ODL_10:140:void_setPosition(java.lang.String):digit - '0' - 1 => 1
+ODL_11:146:java.lang.String_onePossibleMove(int,int):column >= 0 => column
+ODL_12:146:java.lang.String_onePossibleMove(int,int):column >= 0 => 0
+ODL_13:146:java.lang.String_onePossibleMove(int,int):column <= 7 => column
+ODL_14:146:java.lang.String_onePossibleMove(int,int):column <= 7 => 7
+ODL_15:146:java.lang.String_onePossibleMove(int,int):column >= 0 && column <= 7 => column >= 0
+ODL_16:146:java.lang.String_onePossibleMove(int,int):column >= 0 && column <= 7 => column <= 7
+ODL_17:147:java.lang.String_onePossibleMove(int,int):row >= 0 => row
+ODL_18:147:java.lang.String_onePossibleMove(int,int):row >= 0 => 0
+ODL_19:147:java.lang.String_onePossibleMove(int,int):row <= 7 => row
+ODL_20:147:java.lang.String_onePossibleMove(int,int):row <= 7 => 7
+ODL_21:147:java.lang.String_onePossibleMove(int,int):row >= 0 && row <= 7 => row >= 0
+ODL_22:147:java.lang.String_onePossibleMove(int,int):row >= 0 && row <= 7 => row <= 7
+ODL_23:148:java.lang.String_onePossibleMove(int,int):'a' + column => 'a'
+ODL_24:148:java.lang.String_onePossibleMove(int,int):'a' + column => column
+ODL_25:149:java.lang.String_onePossibleMove(int,int):'1' + row => '1'
+ODL_26:149:java.lang.String_onePossibleMove(int,int):'1' + row => row
+ODL_27:153:java.lang.String_onePossibleMove(int,int):returnString + sb.toString() => returnString
+ODL_28:153:java.lang.String_onePossibleMove(int,int):returnString + sb.toString() => sb.toString()
+CDL_1:96:java.lang.String_getPosition():"" + letter => letter
+CDL_2:96:java.lang.String_getPosition():row + 1 => row
+CDL_3:140:void_setPosition(java.lang.String):digit - '0' => digit
+CDL_4:140:void_setPosition(java.lang.String):digit - '0' - 1 => digit - '0'
+CDL_5:146:java.lang.String_onePossibleMove(int,int):column >= 0 => column
+CDL_6:146:java.lang.String_onePossibleMove(int,int):column <= 7 => column
+CDL_7:147:java.lang.String_onePossibleMove(int,int):row >= 0 => row
+CDL_8:147:java.lang.String_onePossibleMove(int,int):row <= 7 => row
+CDL_9:148:java.lang.String_onePossibleMove(int,int):'a' + column => column
+CDL_10:149:java.lang.String_onePossibleMove(int,int):'1' + row => row

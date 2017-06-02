@@ -1,0 +1,507 @@
+AORB_1:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => this.getRow() * 1
+AORB_2:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => this.getRow() / 1
+AORB_3:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => this.getRow() % 1
+AORB_4:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => this.getRow() - 1
+AORB_5:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => this.getRow() * 2
+AORB_6:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => this.getRow() / 2
+AORB_7:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => this.getRow() % 2
+AORB_8:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => this.getRow() - 2
+AORB_9:41:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol * 1
+AORB_10:41:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol / 1
+AORB_11:41:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol % 1
+AORB_12:41:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol + 1
+AORB_13:42:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol * 1
+AORB_14:42:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol / 1
+AORB_15:42:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol % 1
+AORB_16:42:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol - 1
+AORB_17:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => this.getRow() * 1
+AORB_18:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => this.getRow() / 1
+AORB_19:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => this.getRow() % 1
+AORB_20:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => this.getRow() + 1
+AORB_21:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => this.getRow() * 2
+AORB_22:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => this.getRow() / 2
+AORB_23:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => this.getRow() % 2
+AORB_24:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => this.getRow() + 2
+AORB_25:71:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol * 1
+AORB_26:71:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol / 1
+AORB_27:71:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol % 1
+AORB_28:71:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol + 1
+AORB_29:72:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol * 1
+AORB_30:72:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol / 1
+AORB_31:72:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol % 1
+AORB_32:72:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol - 1
+AOIU_1:32:java.util.ArrayList_legalMoves():nextRow => -nextRow
+AOIU_2:32:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_3:38:java.util.ArrayList_legalMoves():nextNextRow => -nextNextRow
+AOIU_4:38:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_5:41:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_6:42:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_7:46:java.util.ArrayList_legalMoves():nextRow => -nextRow
+AOIU_8:46:java.util.ArrayList_legalMoves():leftColumn => -leftColumn
+AOIU_9:53:java.util.ArrayList_legalMoves():nextRow => -nextRow
+AOIU_10:53:java.util.ArrayList_legalMoves():rightColumn => -rightColumn
+AOIU_11:62:java.util.ArrayList_legalMoves():nextRow => -nextRow
+AOIU_12:62:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_13:68:java.util.ArrayList_legalMoves():nextNextRow => -nextNextRow
+AOIU_14:68:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_15:71:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_16:72:java.util.ArrayList_legalMoves():currentCol => -currentCol
+AOIU_17:76:java.util.ArrayList_legalMoves():nextRow => -nextRow
+AOIU_18:76:java.util.ArrayList_legalMoves():leftColumn => -leftColumn
+AOIU_19:83:java.util.ArrayList_legalMoves():nextRow => -nextRow
+AOIU_20:83:java.util.ArrayList_legalMoves():rightColumn => -rightColumn
+AOIS_1:30:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_2:30:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_3:30:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_4:30:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_5:31:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_6:31:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_7:31:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_8:31:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_9:31:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_10:31:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_11:31:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_12:31:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_13:32:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_14:32:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_15:32:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_16:32:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_17:37:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_18:37:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_19:37:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_20:37:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_21:37:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_22:37:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_23:37:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_24:37:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_25:37:java.util.ArrayList_legalMoves():nextNextRow => ++nextNextRow
+AOIS_26:37:java.util.ArrayList_legalMoves():nextNextRow => --nextNextRow
+AOIS_27:37:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow++
+AOIS_28:37:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow--
+AOIS_29:37:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_30:37:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_31:37:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_32:37:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_33:38:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow++
+AOIS_34:38:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow--
+AOIS_35:38:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_36:38:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_37:41:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_38:41:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_39:41:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_40:41:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_41:42:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_42:42:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_43:42:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_44:42:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_45:43:java.util.ArrayList_legalMoves():leftColumn => ++leftColumn
+AOIS_46:43:java.util.ArrayList_legalMoves():leftColumn => --leftColumn
+AOIS_47:43:java.util.ArrayList_legalMoves():leftColumn => leftColumn++
+AOIS_48:43:java.util.ArrayList_legalMoves():leftColumn => leftColumn--
+AOIS_49:44:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_50:44:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_51:44:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_52:44:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_53:44:java.util.ArrayList_legalMoves():leftColumn => ++leftColumn
+AOIS_54:44:java.util.ArrayList_legalMoves():leftColumn => --leftColumn
+AOIS_55:44:java.util.ArrayList_legalMoves():leftColumn => leftColumn++
+AOIS_56:44:java.util.ArrayList_legalMoves():leftColumn => leftColumn--
+AOIS_57:46:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_58:46:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_59:46:java.util.ArrayList_legalMoves():leftColumn => leftColumn++
+AOIS_60:46:java.util.ArrayList_legalMoves():leftColumn => leftColumn--
+AOIS_61:50:java.util.ArrayList_legalMoves():rightColumn => ++rightColumn
+AOIS_62:50:java.util.ArrayList_legalMoves():rightColumn => --rightColumn
+AOIS_63:50:java.util.ArrayList_legalMoves():rightColumn => rightColumn++
+AOIS_64:50:java.util.ArrayList_legalMoves():rightColumn => rightColumn--
+AOIS_65:51:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_66:51:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_67:51:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_68:51:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_69:51:java.util.ArrayList_legalMoves():rightColumn => ++rightColumn
+AOIS_70:51:java.util.ArrayList_legalMoves():rightColumn => --rightColumn
+AOIS_71:51:java.util.ArrayList_legalMoves():rightColumn => rightColumn++
+AOIS_72:51:java.util.ArrayList_legalMoves():rightColumn => rightColumn--
+AOIS_73:53:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_74:53:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_75:53:java.util.ArrayList_legalMoves():rightColumn => rightColumn++
+AOIS_76:53:java.util.ArrayList_legalMoves():rightColumn => rightColumn--
+AOIS_77:60:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_78:60:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_79:60:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_80:60:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_81:61:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_82:61:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_83:61:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_84:61:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_85:61:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_86:61:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_87:61:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_88:61:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_89:62:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_90:62:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_91:62:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_92:62:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_93:67:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_94:67:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_95:67:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_96:67:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_97:67:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_98:67:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_99:67:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_100:67:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_101:67:java.util.ArrayList_legalMoves():nextNextRow => ++nextNextRow
+AOIS_102:67:java.util.ArrayList_legalMoves():nextNextRow => --nextNextRow
+AOIS_103:67:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow++
+AOIS_104:67:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow--
+AOIS_105:67:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_106:67:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_107:67:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_108:67:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_109:68:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow++
+AOIS_110:68:java.util.ArrayList_legalMoves():nextNextRow => nextNextRow--
+AOIS_111:68:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_112:68:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_113:71:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_114:71:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_115:71:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_116:71:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_117:72:java.util.ArrayList_legalMoves():currentCol => ++currentCol
+AOIS_118:72:java.util.ArrayList_legalMoves():currentCol => --currentCol
+AOIS_119:72:java.util.ArrayList_legalMoves():currentCol => currentCol++
+AOIS_120:72:java.util.ArrayList_legalMoves():currentCol => currentCol--
+AOIS_121:73:java.util.ArrayList_legalMoves():leftColumn => ++leftColumn
+AOIS_122:73:java.util.ArrayList_legalMoves():leftColumn => --leftColumn
+AOIS_123:73:java.util.ArrayList_legalMoves():leftColumn => leftColumn++
+AOIS_124:73:java.util.ArrayList_legalMoves():leftColumn => leftColumn--
+AOIS_125:74:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_126:74:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_127:74:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_128:74:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_129:74:java.util.ArrayList_legalMoves():leftColumn => ++leftColumn
+AOIS_130:74:java.util.ArrayList_legalMoves():leftColumn => --leftColumn
+AOIS_131:74:java.util.ArrayList_legalMoves():leftColumn => leftColumn++
+AOIS_132:74:java.util.ArrayList_legalMoves():leftColumn => leftColumn--
+AOIS_133:76:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_134:76:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_135:76:java.util.ArrayList_legalMoves():leftColumn => leftColumn++
+AOIS_136:76:java.util.ArrayList_legalMoves():leftColumn => leftColumn--
+AOIS_137:80:java.util.ArrayList_legalMoves():rightColumn => ++rightColumn
+AOIS_138:80:java.util.ArrayList_legalMoves():rightColumn => --rightColumn
+AOIS_139:80:java.util.ArrayList_legalMoves():rightColumn => rightColumn++
+AOIS_140:80:java.util.ArrayList_legalMoves():rightColumn => rightColumn--
+AOIS_141:81:java.util.ArrayList_legalMoves():nextRow => ++nextRow
+AOIS_142:81:java.util.ArrayList_legalMoves():nextRow => --nextRow
+AOIS_143:81:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_144:81:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_145:81:java.util.ArrayList_legalMoves():rightColumn => ++rightColumn
+AOIS_146:81:java.util.ArrayList_legalMoves():rightColumn => --rightColumn
+AOIS_147:81:java.util.ArrayList_legalMoves():rightColumn => rightColumn++
+AOIS_148:81:java.util.ArrayList_legalMoves():rightColumn => rightColumn--
+AOIS_149:83:java.util.ArrayList_legalMoves():nextRow => nextRow++
+AOIS_150:83:java.util.ArrayList_legalMoves():nextRow => nextRow--
+AOIS_151:83:java.util.ArrayList_legalMoves():rightColumn => rightColumn++
+AOIS_152:83:java.util.ArrayList_legalMoves():rightColumn => rightColumn--
+ROR_1:17:java.lang.String_toString(): color == ChessPiece.Color.WHITE  =>   color != ChessPiece.Color.WHITE
+ROR_2:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   nextRow > 7
+ROR_3:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   nextRow >= 7
+ROR_4:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   nextRow < 7
+ROR_5:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   nextRow == 7
+ROR_6:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   nextRow != 7
+ROR_7:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   true
+ROR_8:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>   false
+ROR_9:31:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) != null
+ROR_10:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   this.getRow() > 1
+ROR_11:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   this.getRow() >= 1
+ROR_12:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   this.getRow() < 1
+ROR_13:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   this.getRow() <= 1
+ROR_14:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   this.getRow() != 1
+ROR_15:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   true
+ROR_16:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>   false
+ROR_17:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) != null
+ROR_18:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) != null
+ROR_19:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn > 0
+ROR_20:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn < 0
+ROR_21:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn <= 0
+ROR_22:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn == 0
+ROR_23:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn != 0
+ROR_24:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   true
+ROR_25:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   false
+ROR_26:44:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null  =>   board.getPiece( onePossibleMove( nextRow, leftColumn ) ) == null
+ROR_27:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn > 7
+ROR_28:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn >= 7
+ROR_29:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn < 7
+ROR_30:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn == 7
+ROR_31:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn != 7
+ROR_32:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   true
+ROR_33:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   false
+ROR_34:51:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null  =>   board.getPiece( onePossibleMove( nextRow, rightColumn ) ) == null
+ROR_35:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   nextRow > 0
+ROR_36:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   nextRow < 0
+ROR_37:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   nextRow <= 0
+ROR_38:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   nextRow == 0
+ROR_39:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   nextRow != 0
+ROR_40:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   true
+ROR_41:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>   false
+ROR_42:61:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) != null
+ROR_43:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   this.getRow() > 6
+ROR_44:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   this.getRow() >= 6
+ROR_45:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   this.getRow() < 6
+ROR_46:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   this.getRow() <= 6
+ROR_47:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   this.getRow() != 6
+ROR_48:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   true
+ROR_49:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>   false
+ROR_50:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) != null
+ROR_51:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) != null
+ROR_52:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn > 0
+ROR_53:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn < 0
+ROR_54:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn <= 0
+ROR_55:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn == 0
+ROR_56:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   leftColumn != 0
+ROR_57:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   true
+ROR_58:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>   false
+ROR_59:74:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null  =>   board.getPiece( onePossibleMove( nextRow, leftColumn ) ) == null
+ROR_60:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn > 7
+ROR_61:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn >= 7
+ROR_62:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn < 7
+ROR_63:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn == 7
+ROR_64:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   rightColumn != 7
+ROR_65:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   true
+ROR_66:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>   false
+ROR_67:81:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null  =>   board.getPiece( onePossibleMove( nextRow, rightColumn ) ) == null
+COR_1:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null || board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null
+COR_2:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null ^ board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null
+COR_3:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null || board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null
+COR_4:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>   board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null ^ board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null
+COD_1:45:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )
+COD_2:52:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )
+COD_3:75:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )
+COD_4:82:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )
+COI_1:17:java.lang.String_toString(): color == ChessPiece.Color.WHITE  =>  !(color == ChessPiece.Color.WHITE)
+COI_2:30:java.util.ArrayList_legalMoves(): nextRow <= 7  =>  !(nextRow <= 7)
+COI_3:31:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null)
+COI_4:35:java.util.ArrayList_legalMoves(): this.getRow() == 1  =>  !(this.getRow() == 1)
+COI_5:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null)
+COI_6:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null)
+COI_7:37:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null)
+COI_8:43:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>  !(leftColumn >= 0)
+COI_9:44:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null  =>  !(board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null)
+COI_10:50:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>  !(rightColumn <= 7)
+COI_11:51:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null  =>  !(board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null)
+COI_12:60:java.util.ArrayList_legalMoves(): nextRow >= 0  =>  !(nextRow >= 0)
+COI_13:61:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null)
+COI_14:65:java.util.ArrayList_legalMoves(): this.getRow() == 6  =>  !(this.getRow() == 6)
+COI_15:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null)
+COI_16:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null)
+COI_17:67:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null  =>  !(board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null)
+COI_18:73:java.util.ArrayList_legalMoves(): leftColumn >= 0  =>  !(leftColumn >= 0)
+COI_19:74:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null  =>  !(board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null)
+COI_20:80:java.util.ArrayList_legalMoves(): rightColumn <= 7  =>  !(rightColumn <= 7)
+COI_21:81:java.util.ArrayList_legalMoves(): board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null  =>  !(board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null)
+LOI_1:30:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_2:31:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_3:31:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_4:32:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_5:32:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_6:37:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_7:37:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_8:37:java.util.ArrayList_legalMoves():nextNextRow => ~nextNextRow
+LOI_9:37:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_10:38:java.util.ArrayList_legalMoves():nextNextRow => ~nextNextRow
+LOI_11:38:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_12:41:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_13:42:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_14:43:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_15:44:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_16:44:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_17:45:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_18:45:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_19:46:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_20:46:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_21:50:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_22:51:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_23:51:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_24:52:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_25:52:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_26:53:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_27:53:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_28:60:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_29:61:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_30:61:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_31:62:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_32:62:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_33:67:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_34:67:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_35:67:java.util.ArrayList_legalMoves():nextNextRow => ~nextNextRow
+LOI_36:67:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_37:68:java.util.ArrayList_legalMoves():nextNextRow => ~nextNextRow
+LOI_38:68:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_39:71:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_40:72:java.util.ArrayList_legalMoves():currentCol => ~currentCol
+LOI_41:73:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_42:74:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_43:74:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_44:75:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_45:75:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_46:76:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_47:76:java.util.ArrayList_legalMoves():leftColumn => ~leftColumn
+LOI_48:80:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_49:81:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_50:81:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_51:82:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_52:82:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+LOI_53:83:java.util.ArrayList_legalMoves():nextRow => ~nextRow
+LOI_54:83:java.util.ArrayList_legalMoves():rightColumn => ~rightColumn
+SDL_1:17:java.lang.String_toString(): if (color == ChessPiece.Color.WHITE) {     return \"♙\"; } else {     return \"♟\"; }  =>  
+SDL_2:22:java.lang.String_toString(): if (color == ChessPiece.Color.WHITE) {     return \"♙\"; } else {     return \"♟\"; }  =>   if (true) {     return \"♙\"; } else {     return \"♟\"; }
+SDL_3:19:java.lang.String_toString(): return \"♙\";  =>   return \"\";
+SDL_4:21:java.lang.String_toString(): return \"♟\";  =>   return \"\";
+SDL_5:28:java.util.ArrayList_legalMoves(): java.util.ArrayList<String> returnList = new java.util.ArrayList<String>(); if (this.getColor().equals( ChessPiece.Color.WHITE )) {     int currentCol = this.getColumn();     int nextRow = this.getRow() + 1;     if (nextRow <= 7) {         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextRow, currentCol ) );         }     }     if (this.getRow() == 1) {         int nextNextRow = this.getRow() + 2;         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextNextRow, currentCol ) );         }     }     int leftColumn = currentCol - 1;     int rightColumn = currentCol + 1;     if (leftColumn >= 0) {         if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, leftColumn ) );             }         }     }     if (rightColumn <= 7) {         if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, rightColumn ) );             }         }     } } else {     int currentCol = this.getColumn();     int nextRow = this.getRow() - 1;     if (nextRow >= 0) {         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextRow, currentCol ) );         }     }     if (this.getRow() == 6) {         int nextNextRow = this.getRow() - 2;         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextNextRow, currentCol ) );         }     }     int leftColumn = currentCol - 1;     int rightColumn = currentCol + 1;     if (leftColumn >= 0) {         if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, leftColumn ) );             }         }     }     if (rightColumn <= 7) {         if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, rightColumn ) );             }         }     } } return returnList;  =>   java.util.ArrayList<String> returnList = new java.util.ArrayList<String>(); return returnList;
+SDL_6:52:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_7:51:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_8:50:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_9:50:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() + 1; if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } }
+SDL_10:88:java.util.ArrayList_legalMoves(): if (this.getColor().equals( ChessPiece.Color.WHITE )) {     int currentCol = this.getColumn();     int nextRow = this.getRow() + 1;     if (nextRow <= 7) {         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextRow, currentCol ) );         }     }     if (this.getRow() == 1) {         int nextNextRow = this.getRow() + 2;         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextNextRow, currentCol ) );         }     }     int leftColumn = currentCol - 1;     int rightColumn = currentCol + 1;     if (leftColumn >= 0) {         if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, leftColumn ) );             }         }     }     if (rightColumn <= 7) {         if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, rightColumn ) );             }         }     } } else {     int currentCol = this.getColumn();     int nextRow = this.getRow() - 1;     if (nextRow >= 0) {         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextRow, currentCol ) );         }     }     if (this.getRow() == 6) {         int nextNextRow = this.getRow() - 2;         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextNextRow, currentCol ) );         }     }     int leftColumn = currentCol - 1;     int rightColumn = currentCol + 1;     if (leftColumn >= 0) {         if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, leftColumn ) );             }         }     }     if (rightColumn <= 7) {         if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, rightColumn ) );             }         }     } }  =>   if (true) {     int currentCol = this.getColumn();     int nextRow = this.getRow() + 1;     if (nextRow <= 7) {         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextRow, currentCol ) );         }     }     if (this.getRow() == 1) {         int nextNextRow = this.getRow() + 2;         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextNextRow, currentCol ) );         }     }     int leftColumn = currentCol - 1;     int rightColumn = currentCol + 1;     if (leftColumn >= 0) {         if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, leftColumn ) );             }         }     }     if (rightColumn <= 7) {         if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, rightColumn ) );             }         }     } } else {     int currentCol = this.getColumn();     int nextRow = this.getRow() - 1;     if (nextRow >= 0) {         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextRow, currentCol ) );         }     }     if (this.getRow() == 6) {         int nextNextRow = this.getRow() - 2;         if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {             returnList.add( onePossibleMove( nextNextRow, currentCol ) );         }     }     int leftColumn = currentCol - 1;     int rightColumn = currentCol + 1;     if (leftColumn >= 0) {         if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, leftColumn ) );             }         }     }     if (rightColumn <= 7) {         if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {             if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {                 returnList.add( onePossibleMove( nextRow, rightColumn ) );             }         }     } }
+SDL_11:82:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_12:81:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_13:80:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_14:80:java.util.ArrayList_legalMoves(): int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } } if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   int currentCol = this.getColumn(); int nextRow = this.getRow() - 1; if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } } if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } } int leftColumn = currentCol - 1; int rightColumn = currentCol + 1; if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } }
+SDL_15:31:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextRow, currentCol ) ); }  =>  
+SDL_16:35:java.util.ArrayList_legalMoves(): if (nextRow <= 7) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } }  =>   if (true) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } }
+SDL_17:32:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextRow, currentCol ) );  =>  
+SDL_18:34:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextRow, currentCol ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextRow, currentCol ) ); }
+SDL_19:37:java.util.ArrayList_legalMoves(): int nextNextRow = this.getRow() + 2; if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextNextRow, currentCol ) ); }  =>   int nextNextRow = this.getRow() + 2;
+SDL_20:41:java.util.ArrayList_legalMoves(): if (this.getRow() == 1) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } }  =>   if (true) {     int nextNextRow = this.getRow() + 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } }
+SDL_21:38:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextNextRow, currentCol ) );  =>  
+SDL_22:40:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextNextRow, currentCol ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextNextRow, currentCol ) ); }
+SDL_23:44:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, leftColumn ) );     } }  =>  
+SDL_24:50:java.util.ArrayList_legalMoves(): if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } }  =>   if (true) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } }
+SDL_25:45:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, leftColumn ) ); }  =>  
+SDL_26:49:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, leftColumn ) );     } }  =>   if (true) {     if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, leftColumn ) );     } }
+SDL_27:46:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextRow, leftColumn ) );  =>  
+SDL_28:48:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, leftColumn ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextRow, leftColumn ) ); }
+SDL_29:51:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, rightColumn ) );     } }  =>  
+SDL_30:57:java.util.ArrayList_legalMoves(): if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   if (true) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_31:52:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, rightColumn ) ); }  =>  
+SDL_32:56:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, rightColumn ) );     } }  =>   if (true) {     if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, rightColumn ) );     } }
+SDL_33:53:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextRow, rightColumn ) );  =>  
+SDL_34:55:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, rightColumn ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextRow, rightColumn ) ); }
+SDL_35:61:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextRow, currentCol ) ); }  =>  
+SDL_36:65:java.util.ArrayList_legalMoves(): if (nextRow >= 0) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } }  =>   if (true) {     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextRow, currentCol ) );     } }
+SDL_37:62:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextRow, currentCol ) );  =>  
+SDL_38:64:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextRow, currentCol ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextRow, currentCol ) ); }
+SDL_39:67:java.util.ArrayList_legalMoves(): int nextNextRow = this.getRow() - 2; if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextNextRow, currentCol ) ); }  =>   int nextNextRow = this.getRow() - 2;
+SDL_40:71:java.util.ArrayList_legalMoves(): if (this.getRow() == 6) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } }  =>   if (true) {     int nextNextRow = this.getRow() - 2;     if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {         returnList.add( onePossibleMove( nextNextRow, currentCol ) );     } }
+SDL_41:68:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextNextRow, currentCol ) );  =>  
+SDL_42:70:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null) {     returnList.add( onePossibleMove( nextNextRow, currentCol ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextNextRow, currentCol ) ); }
+SDL_43:74:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, leftColumn ) );     } }  =>  
+SDL_44:80:java.util.ArrayList_legalMoves(): if (leftColumn >= 0) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } }  =>   if (true) {     if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, leftColumn ) );         }     } }
+SDL_45:75:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, leftColumn ) ); }  =>  
+SDL_46:79:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, leftColumn ) );     } }  =>   if (true) {     if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, leftColumn ) );     } }
+SDL_47:76:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextRow, leftColumn ) );  =>  
+SDL_48:78:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, leftColumn ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextRow, leftColumn ) ); }
+SDL_49:81:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, rightColumn ) );     } }  =>  
+SDL_50:87:java.util.ArrayList_legalMoves(): if (rightColumn <= 7) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }  =>   if (true) {     if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {         if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {             returnList.add( onePossibleMove( nextRow, rightColumn ) );         }     } }
+SDL_51:82:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, rightColumn ) ); }  =>  
+SDL_52:86:java.util.ArrayList_legalMoves(): if (board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null) {     if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, rightColumn ) );     } }  =>   if (true) {     if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {         returnList.add( onePossibleMove( nextRow, rightColumn ) );     } }
+SDL_53:83:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( nextRow, rightColumn ) );  =>  
+SDL_54:85:java.util.ArrayList_legalMoves(): if (!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )) {     returnList.add( onePossibleMove( nextRow, rightColumn ) ); }  =>   if (true) {     returnList.add( onePossibleMove( nextRow, rightColumn ) ); }
+VDL_1:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => ChessPiece.Color.WHITE
+VDL_2:30:java.util.ArrayList_legalMoves():nextRow <= 7 => 7
+VDL_3:41:java.util.ArrayList_legalMoves():currentCol - 1 => 1
+VDL_4:42:java.util.ArrayList_legalMoves():currentCol + 1 => 1
+VDL_5:43:java.util.ArrayList_legalMoves():leftColumn >= 0 => 0
+VDL_6:50:java.util.ArrayList_legalMoves():rightColumn <= 7 => 7
+VDL_7:60:java.util.ArrayList_legalMoves():nextRow >= 0 => 0
+VDL_8:71:java.util.ArrayList_legalMoves():currentCol - 1 => 1
+VDL_9:72:java.util.ArrayList_legalMoves():currentCol + 1 => 1
+VDL_10:73:java.util.ArrayList_legalMoves():leftColumn >= 0 => 0
+VDL_11:80:java.util.ArrayList_legalMoves():rightColumn <= 7 => 7
+ODL_1:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => color
+ODL_2:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => ChessPiece.Color.WHITE
+ODL_3:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => this.getRow()
+ODL_4:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => 1
+ODL_5:30:java.util.ArrayList_legalMoves():nextRow <= 7 => nextRow
+ODL_6:30:java.util.ArrayList_legalMoves():nextRow <= 7 => 7
+ODL_7:31:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+ODL_8:31:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => null
+ODL_9:35:java.util.ArrayList_legalMoves():this.getRow() == 1 => this.getRow()
+ODL_10:35:java.util.ArrayList_legalMoves():this.getRow() == 1 => 1
+ODL_11:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => this.getRow()
+ODL_12:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => 2
+ODL_13:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+ODL_14:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => null
+ODL_15:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextNextRow, currentCol ) )
+ODL_16:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => null
+ODL_17:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null
+ODL_18:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null
+ODL_19:41:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol
+ODL_20:41:java.util.ArrayList_legalMoves():currentCol - 1 => 1
+ODL_21:42:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol
+ODL_22:42:java.util.ArrayList_legalMoves():currentCol + 1 => 1
+ODL_23:43:java.util.ArrayList_legalMoves():leftColumn >= 0 => leftColumn
+ODL_24:43:java.util.ArrayList_legalMoves():leftColumn >= 0 => 0
+ODL_25:44:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, leftColumn ) )
+ODL_26:44:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null => null
+ODL_27:45:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )
+ODL_28:50:java.util.ArrayList_legalMoves():rightColumn <= 7 => rightColumn
+ODL_29:50:java.util.ArrayList_legalMoves():rightColumn <= 7 => 7
+ODL_30:51:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, rightColumn ) )
+ODL_31:51:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null => null
+ODL_32:52:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )
+ODL_33:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => this.getRow()
+ODL_34:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => 1
+ODL_35:60:java.util.ArrayList_legalMoves():nextRow >= 0 => nextRow
+ODL_36:60:java.util.ArrayList_legalMoves():nextRow >= 0 => 0
+ODL_37:61:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+ODL_38:61:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => null
+ODL_39:65:java.util.ArrayList_legalMoves():this.getRow() == 6 => this.getRow()
+ODL_40:65:java.util.ArrayList_legalMoves():this.getRow() == 6 => 6
+ODL_41:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => this.getRow()
+ODL_42:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => 2
+ODL_43:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+ODL_44:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => null
+ODL_45:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextNextRow, currentCol ) )
+ODL_46:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => null
+ODL_47:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null
+ODL_48:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null && board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null
+ODL_49:71:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol
+ODL_50:71:java.util.ArrayList_legalMoves():currentCol - 1 => 1
+ODL_51:72:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol
+ODL_52:72:java.util.ArrayList_legalMoves():currentCol + 1 => 1
+ODL_53:73:java.util.ArrayList_legalMoves():leftColumn >= 0 => leftColumn
+ODL_54:73:java.util.ArrayList_legalMoves():leftColumn >= 0 => 0
+ODL_55:74:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, leftColumn ) )
+ODL_56:74:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null => null
+ODL_57:75:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, leftColumn ) ).getColor().equals( this.getColor() )
+ODL_58:80:java.util.ArrayList_legalMoves():rightColumn <= 7 => rightColumn
+ODL_59:80:java.util.ArrayList_legalMoves():rightColumn <= 7 => 7
+ODL_60:81:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, rightColumn ) )
+ODL_61:81:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null => null
+ODL_62:82:java.util.ArrayList_legalMoves():!board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() ) => board.getPiece( onePossibleMove( nextRow, rightColumn ) ).getColor().equals( this.getColor() )
+CDL_1:29:java.util.ArrayList_legalMoves():this.getRow() + 1 => this.getRow()
+CDL_2:30:java.util.ArrayList_legalMoves():nextRow <= 7 => nextRow
+CDL_3:31:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+CDL_4:35:java.util.ArrayList_legalMoves():this.getRow() == 1 => this.getRow()
+CDL_5:36:java.util.ArrayList_legalMoves():this.getRow() + 2 => this.getRow()
+CDL_6:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+CDL_7:37:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextNextRow, currentCol ) )
+CDL_8:41:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol
+CDL_9:42:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol
+CDL_10:43:java.util.ArrayList_legalMoves():leftColumn >= 0 => leftColumn
+CDL_11:44:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, leftColumn ) )
+CDL_12:50:java.util.ArrayList_legalMoves():rightColumn <= 7 => rightColumn
+CDL_13:51:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, rightColumn ) )
+CDL_14:59:java.util.ArrayList_legalMoves():this.getRow() - 1 => this.getRow()
+CDL_15:60:java.util.ArrayList_legalMoves():nextRow >= 0 => nextRow
+CDL_16:61:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+CDL_17:65:java.util.ArrayList_legalMoves():this.getRow() == 6 => this.getRow()
+CDL_18:66:java.util.ArrayList_legalMoves():this.getRow() - 2 => this.getRow()
+CDL_19:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextRow, currentCol ) )
+CDL_20:67:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextNextRow, currentCol ) ) == null => board.getPiece( onePossibleMove( nextNextRow, currentCol ) )
+CDL_21:71:java.util.ArrayList_legalMoves():currentCol - 1 => currentCol
+CDL_22:72:java.util.ArrayList_legalMoves():currentCol + 1 => currentCol
+CDL_23:73:java.util.ArrayList_legalMoves():leftColumn >= 0 => leftColumn
+CDL_24:74:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, leftColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, leftColumn ) )
+CDL_25:80:java.util.ArrayList_legalMoves():rightColumn <= 7 => rightColumn
+CDL_26:81:java.util.ArrayList_legalMoves():board.getPiece( onePossibleMove( nextRow, rightColumn ) ) != null => board.getPiece( onePossibleMove( nextRow, rightColumn ) )

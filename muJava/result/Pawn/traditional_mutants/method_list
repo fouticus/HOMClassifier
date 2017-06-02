@@ -1,0 +1,3 @@
+Pawn(ChessBoard,ChessPiece.Color)
+java.lang.String_toString()
+java.util.ArrayList_legalMoves()

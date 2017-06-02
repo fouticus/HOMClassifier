@@ -1,0 +1,8 @@
+Bishop
+ChessBoard
+ChessPiece
+King
+Knight
+Pawn
+Queen
+Rook

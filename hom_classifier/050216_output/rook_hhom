@@ -1,0 +1,532 @@
+
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS48:[45]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:ROR6:[29]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS42:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:ODL6:[28]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS45:[45]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS47:[45]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:LOI14:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:ODL4:[27]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIU3:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS41:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS46:[45]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:LOI13:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS43:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIU4:[41]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AODU4:[28]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:SDL21:[38]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AORB16:[34]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AODU2:[27]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AORB8:[33]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:AOIS44:[41]:killed=False) from file
+2016/05/02 13:20:37 root  INFO      | Loaded 20 Mutants
+2016/05/02 13:20:37 root  DEBUG     | Classifying with a higher order classifier
+2016/05/02 13:20:37 root  DEBUG     | loaded (Rook:original:[]:killed=False) from file
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS48ROR6
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS42ODL6
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS45AOIS47
+2016/05/02 13:20:37 root  DEBUG     | new mutant:LOI14ODL4
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIU3AOIS41
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS46LOI13
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS43AOIU4
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AODU4SDL21
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AORB16AODU2
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AORB8AOIS44
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS48ROR6AOIS42ODL6
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS45AOIS47LOI14ODL4
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIU3AOIS41AOIS46LOI13
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS43AOIU4AODU4SDL21
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AORB16AODU2AORB8AOIS44
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4
+2016/05/02 13:20:37 root  DEBUG     | new mutant:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4
+2016/05/02 13:20:37 root  INFO      | Generated 41 homs in the mutation tree
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS48:[45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:ROR6:[29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS42:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:ODL6:[28]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS45:[45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS47:[45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:LOI14:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:ODL4:[27]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIU3:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS41:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS46:[45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:LOI13:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS43:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIU4:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AODU4:[28]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:SDL21:[38]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB16:[34]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AODU2:[27]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB8:[33]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS44:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS48ROR6:[45, 29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS42ODL6:[41, 28]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS45AOIS47:[45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:LOI14ODL4:[41, 27]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIU3AOIS41:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS46LOI13:[41, 45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS43AOIU4:[41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AODU4SDL21:[28, 38]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB16AODU2:[34, 27]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB8AOIS44:[33, 41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIU3AOIS41AOIS46LOI13:[41, 45]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS43AOIU4AODU4SDL21:[41, 28, 38]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB16AODU2AORB8AOIS44:[33, 34, 27, 41]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[41, 28, 45, 38]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6:[33, 34, 41, 45, 27, 28, 29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[38, 41, 45, 27, 28, 29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 41, 45, 27, 28, 29]:killed=False)
+2016/05/02 13:20:37 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 38, 41, 45, 27, 28, 29]:killed=False)
+2016/05/02 13:20:37 root  INFO      | Writing Mutants to File
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS48:[45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:ROR6:[29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS42:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:ODL6:[28]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS45:[45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS47:[45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:LOI14:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:ODL4:[27]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIU3:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS41:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS46:[45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:LOI13:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS43:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIU4:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AODU4:[28]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:SDL21:[38]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB16:[34]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AODU2:[27]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB8:[33]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS44:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS48ROR6:[45, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS42ODL6:[41, 28]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS45AOIS47:[45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:LOI14ODL4:[41, 27]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIU3AOIS41:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS46LOI13:[41, 45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS43AOIU4:[41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AODU4SDL21:[28, 38]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB16AODU2:[34, 27]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB8AOIS44:[33, 41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIU3AOIS41AOIS46LOI13:[41, 45]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS43AOIU4AODU4SDL21:[41, 28, 38]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB16AODU2AORB8AOIS44:[33, 34, 27, 41]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[41, 28, 45, 38]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6:[33, 34, 41, 45, 27, 28, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[38, 41, 45, 27, 28, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 41, 45, 27, 28, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 38, 41, 45, 27, 28, 29]:killed=False) to file
+2016/05/02 13:20:37 root  DEBUG     | wrote 41 mutants to file
+2016/05/02 13:20:37 root  DEBUG     | running mutant
+2016/05/02 13:20:37 root  DEBUG     | compiling mutant
+2016/05/02 13:20:37 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21//*.java
+2016/05/02 13:20:38 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21/ ChessUnitTestRunner
+2016/05/02 13:20:38 root  DEBUG     | running mutant
+2016/05/02 13:20:38 root  DEBUG     | compiling mutant
+2016/05/02 13:20:38 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4//*.java
+2016/05/02 13:20:39 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4/ ChessUnitTestRunner
+2016/05/02 13:20:39 root  DEBUG     | parent1: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[38, 41, 45, 27, 28, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:39 root  DEBUG     | parent2: (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 41, 45, 27, 28, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:39 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 38, 41, 45, 27, 28, 29]:killed=False): 
+2016/05/02 13:20:39 root  DEBUG     | running mutant
+2016/05/02 13:20:39 root  DEBUG     | compiling mutant
+2016/05/02 13:20:39 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4//*.java
+2016/05/02 13:20:40 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4/ ChessUnitTestRunner
+2016/05/02 13:20:40 root  DEBUG     | running mutant
+2016/05/02 13:20:40 root  DEBUG     | compiling mutant
+2016/05/02 13:20:40 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21//*.java
+2016/05/02 13:20:41 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21/ ChessUnitTestRunner
+2016/05/02 13:20:41 root  DEBUG     | parent1: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:41 root  DEBUG     | parent2: (Rook:AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[41, 28, 45, 38]:killed=False): ('true\n', None)
+2016/05/02 13:20:41 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[38, 41, 45, 27, 28, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:41 root  DEBUG     | running mutant
+2016/05/02 13:20:41 root  DEBUG     | compiling mutant
+2016/05/02 13:20:41 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6//*.java
+2016/05/02 13:20:42 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6AOIS42ODL6/ ChessUnitTestRunner
+2016/05/02 13:20:42 root  DEBUG     | running mutant
+2016/05/02 13:20:42 root  DEBUG     | compiling mutant
+2016/05/02 13:20:42 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47LOI14ODL4/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47LOI14ODL4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47LOI14ODL4//*.java
+2016/05/02 13:20:43 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47LOI14ODL4/ ChessUnitTestRunner
+2016/05/02 13:20:43 root  DEBUG     | parent1: (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:43 root  DEBUG     | parent2: (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False): ('true\n', None)
+2016/05/02 13:20:43 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:43 root  DEBUG     | running mutant
+2016/05/02 13:20:43 root  DEBUG     | compiling mutant
+2016/05/02 13:20:43 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6//*.java
+2016/05/02 13:20:44 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS48ROR6/ ChessUnitTestRunner
+2016/05/02 13:20:44 root  DEBUG     | running mutant
+2016/05/02 13:20:44 root  DEBUG     | compiling mutant
+2016/05/02 13:20:44 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS42ODL6/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS42ODL6/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS42ODL6//*.java
+2016/05/02 13:20:45 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS42ODL6/ ChessUnitTestRunner
+2016/05/02 13:20:45 root  DEBUG     | parent1: (Rook:AOIS48ROR6:[45, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:45 root  DEBUG     | parent2: (Rook:AOIS42ODL6:[41, 28]:killed=False): ('true\n', None)
+2016/05/02 13:20:45 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:45 root  DEBUG     | running mutant
+2016/05/02 13:20:45 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS48/ ChessUnitTestRunner
+2016/05/02 13:20:45 root  DEBUG     | running mutant
+2016/05/02 13:20:45 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ROR6/ ChessUnitTestRunner
+2016/05/02 13:20:46 root  DEBUG     | parent1: (Rook:AOIS48:[45]:killed=False): ('true\n', None)
+2016/05/02 13:20:46 root  DEBUG     | parent2: (Rook:ROR6:[29]:killed=False): ('true\n', None)
+2016/05/02 13:20:46 root  DEBUG     | child: (Rook:AOIS48ROR6:[45, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:46 root  DEBUG     | (Rook:AOIS48:[45]:killed=False) and (Rook:ROR6:[29]:killed=False) output are both equal to child
+2016/05/02 13:20:46 root  DEBUG     | running mutant
+2016/05/02 13:20:46 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS42/ ChessUnitTestRunner
+2016/05/02 13:20:46 root  DEBUG     | running mutant
+2016/05/02 13:20:46 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL6/ ChessUnitTestRunner
+2016/05/02 13:20:46 root  DEBUG     | parent1: (Rook:AOIS42:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:46 root  DEBUG     | parent2: (Rook:ODL6:[28]:killed=False): ('true\n', None)
+2016/05/02 13:20:46 root  DEBUG     | child: (Rook:AOIS42ODL6:[41, 28]:killed=False): ('true\n', None)
+2016/05/02 13:20:46 root  DEBUG     | (Rook:AOIS42:[41]:killed=False) and (Rook:ODL6:[28]:killed=False) output are both equal to child
+2016/05/02 13:20:46 root  DEBUG     | (Rook:AOIS48ROR6:[45, 29]:killed=False) and (Rook:AOIS42ODL6:[41, 28]:killed=False) output are both equal to child
+2016/05/02 13:20:46 root  DEBUG     | running mutant
+2016/05/02 13:20:46 root  DEBUG     | compiling mutant
+2016/05/02 13:20:46 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47//*.java
+2016/05/02 13:20:47 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS45AOIS47/ ChessUnitTestRunner
+2016/05/02 13:20:47 root  DEBUG     | running mutant
+2016/05/02 13:20:47 root  DEBUG     | compiling mutant
+2016/05/02 13:20:47 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/LOI14ODL4/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/LOI14ODL4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/LOI14ODL4//*.java
+2016/05/02 13:20:48 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/LOI14ODL4/ ChessUnitTestRunner
+2016/05/02 13:20:48 root  DEBUG     | parent1: (Rook:AOIS45AOIS47:[45]:killed=False): ('true\n', None)
+2016/05/02 13:20:48 root  DEBUG     | parent2: (Rook:LOI14ODL4:[41, 27]:killed=False): ('true\n', None)
+2016/05/02 13:20:48 root  DEBUG     | child: (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False): ('true\n', None)
+2016/05/02 13:20:48 root  DEBUG     | running mutant
+2016/05/02 13:20:48 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS45/ ChessUnitTestRunner
+2016/05/02 13:20:48 root  DEBUG     | running mutant
+2016/05/02 13:20:48 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS47/ ChessUnitTestRunner
+2016/05/02 13:20:49 root  DEBUG     | parent1: (Rook:AOIS45:[45]:killed=False): ('true\n', None)
+2016/05/02 13:20:49 root  DEBUG     | parent2: (Rook:AOIS47:[45]:killed=False): ('true\n', None)
+2016/05/02 13:20:49 root  DEBUG     | child: (Rook:AOIS45AOIS47:[45]:killed=False): ('true\n', None)
+2016/05/02 13:20:49 root  DEBUG     | (Rook:AOIS45:[45]:killed=False) and (Rook:AOIS47:[45]:killed=False) output are both equal to child
+2016/05/02 13:20:49 root  DEBUG     | running mutant
+2016/05/02 13:20:49 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/LOI14/ ChessUnitTestRunner
+2016/05/02 13:20:49 root  DEBUG     | running mutant
+2016/05/02 13:20:49 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL4/ ChessUnitTestRunner
+2016/05/02 13:20:49 root  DEBUG     | parent1: (Rook:LOI14:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:49 root  DEBUG     | parent2: (Rook:ODL4:[27]:killed=False): ('true\n', None)
+2016/05/02 13:20:49 root  DEBUG     | child: (Rook:LOI14ODL4:[41, 27]:killed=False): ('true\n', None)
+2016/05/02 13:20:49 root  DEBUG     | (Rook:LOI14:[41]:killed=False) and (Rook:ODL4:[27]:killed=False) output are both equal to child
+2016/05/02 13:20:49 root  DEBUG     | (Rook:AOIS45AOIS47:[45]:killed=False) and (Rook:LOI14ODL4:[41, 27]:killed=False) output are both equal to child
+2016/05/02 13:20:49 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False) and (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False) output are both equal to child
+2016/05/02 13:20:49 root  DEBUG     | running mutant
+2016/05/02 13:20:49 root  DEBUG     | compiling mutant
+2016/05/02 13:20:49 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13//*.java
+2016/05/02 13:20:50 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41AOIS46LOI13/ ChessUnitTestRunner
+2016/05/02 13:20:50 root  DEBUG     | running mutant
+2016/05/02 13:20:50 root  DEBUG     | compiling mutant
+2016/05/02 13:20:50 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4AODU4SDL21/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4AODU4SDL21/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4AODU4SDL21//*.java
+2016/05/02 13:20:51 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4AODU4SDL21/ ChessUnitTestRunner
+2016/05/02 13:20:51 root  DEBUG     | parent1: (Rook:AOIU3AOIS41AOIS46LOI13:[41, 45]:killed=False): ('true\n', None)
+2016/05/02 13:20:51 root  DEBUG     | parent2: (Rook:AOIS43AOIU4AODU4SDL21:[41, 28, 38]:killed=False): ('true\n', None)
+2016/05/02 13:20:51 root  DEBUG     | child: (Rook:AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[41, 28, 45, 38]:killed=False): ('true\n', None)
+2016/05/02 13:20:51 root  DEBUG     | running mutant
+2016/05/02 13:20:51 root  DEBUG     | compiling mutant
+2016/05/02 13:20:51 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41//*.java
+2016/05/02 13:20:52 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIU3AOIS41/ ChessUnitTestRunner
+2016/05/02 13:20:52 root  DEBUG     | running mutant
+2016/05/02 13:20:52 root  DEBUG     | compiling mutant
+2016/05/02 13:20:52 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS46LOI13/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS46LOI13/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS46LOI13//*.java
+2016/05/02 13:20:53 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS46LOI13/ ChessUnitTestRunner
+2016/05/02 13:20:53 root  DEBUG     | parent1: (Rook:AOIU3AOIS41:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:53 root  DEBUG     | parent2: (Rook:AOIS46LOI13:[41, 45]:killed=False): ('true\n', None)
+2016/05/02 13:20:53 root  DEBUG     | child: (Rook:AOIU3AOIS41AOIS46LOI13:[41, 45]:killed=False): ('true\n', None)
+2016/05/02 13:20:53 root  DEBUG     | running mutant
+2016/05/02 13:20:53 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIU3/ ChessUnitTestRunner
+2016/05/02 13:20:53 root  DEBUG     | running mutant
+2016/05/02 13:20:53 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS41/ ChessUnitTestRunner
+2016/05/02 13:20:53 root  DEBUG     | parent1: (Rook:AOIU3:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:53 root  DEBUG     | parent2: (Rook:AOIS41:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:53 root  DEBUG     | child: (Rook:AOIU3AOIS41:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:53 root  DEBUG     | (Rook:AOIU3:[41]:killed=False) and (Rook:AOIS41:[41]:killed=False) output are both equal to child
+2016/05/02 13:20:53 root  DEBUG     | running mutant
+2016/05/02 13:20:53 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS46/ ChessUnitTestRunner
+2016/05/02 13:20:54 root  DEBUG     | running mutant
+2016/05/02 13:20:54 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/LOI13/ ChessUnitTestRunner
+2016/05/02 13:20:54 root  DEBUG     | parent1: (Rook:AOIS46:[45]:killed=False): ('true\n', None)
+2016/05/02 13:20:54 root  DEBUG     | parent2: (Rook:LOI13:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:54 root  DEBUG     | child: (Rook:AOIS46LOI13:[41, 45]:killed=False): ('true\n', None)
+2016/05/02 13:20:54 root  DEBUG     | (Rook:AOIS46:[45]:killed=False) and (Rook:LOI13:[41]:killed=False) output are both equal to child
+2016/05/02 13:20:54 root  DEBUG     | (Rook:AOIU3AOIS41:[41]:killed=False) and (Rook:AOIS46LOI13:[41, 45]:killed=False) output are both equal to child
+2016/05/02 13:20:54 root  DEBUG     | running mutant
+2016/05/02 13:20:54 root  DEBUG     | compiling mutant
+2016/05/02 13:20:54 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4//*.java
+2016/05/02 13:20:55 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AOIS43AOIU4/ ChessUnitTestRunner
+2016/05/02 13:20:55 root  DEBUG     | running mutant
+2016/05/02 13:20:55 root  DEBUG     | compiling mutant
+2016/05/02 13:20:55 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AODU4SDL21/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AODU4SDL21/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AODU4SDL21//*.java
+2016/05/02 13:20:56 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AODU4SDL21/ ChessUnitTestRunner
+2016/05/02 13:20:56 root  DEBUG     | parent1: (Rook:AOIS43AOIU4:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:56 root  DEBUG     | parent2: (Rook:AODU4SDL21:[28, 38]:killed=False): ('true\n', None)
+2016/05/02 13:20:56 root  DEBUG     | child: (Rook:AOIS43AOIU4AODU4SDL21:[41, 28, 38]:killed=False): ('true\n', None)
+2016/05/02 13:20:56 root  DEBUG     | running mutant
+2016/05/02 13:20:56 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS43/ ChessUnitTestRunner
+2016/05/02 13:20:56 root  DEBUG     | running mutant
+2016/05/02 13:20:56 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIU4/ ChessUnitTestRunner
+2016/05/02 13:20:56 root  DEBUG     | parent1: (Rook:AOIS43:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:56 root  DEBUG     | parent2: (Rook:AOIU4:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:56 root  DEBUG     | child: (Rook:AOIS43AOIU4:[41]:killed=False): ('true\n', None)
+2016/05/02 13:20:56 root  DEBUG     | (Rook:AOIS43:[41]:killed=False) and (Rook:AOIU4:[41]:killed=False) output are both equal to child
+2016/05/02 13:20:56 root  DEBUG     | running mutant
+2016/05/02 13:20:56 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AODU4/ ChessUnitTestRunner
+2016/05/02 13:20:57 root  DEBUG     | running mutant
+2016/05/02 13:20:57 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/SDL21/ ChessUnitTestRunner
+2016/05/02 13:20:57 root  DEBUG     | parent1: (Rook:AODU4:[28]:killed=False): ('true\n', None)
+2016/05/02 13:20:57 root  DEBUG     | parent2: (Rook:SDL21:[38]:killed=False): ('true\n', None)
+2016/05/02 13:20:57 root  DEBUG     | child: (Rook:AODU4SDL21:[28, 38]:killed=False): ('true\n', None)
+2016/05/02 13:20:57 root  DEBUG     | (Rook:AODU4:[28]:killed=False) and (Rook:SDL21:[38]:killed=False) output are both equal to child
+2016/05/02 13:20:57 root  DEBUG     | (Rook:AOIS43AOIU4:[41]:killed=False) and (Rook:AODU4SDL21:[28, 38]:killed=False) output are both equal to child
+2016/05/02 13:20:57 root  DEBUG     | (Rook:AOIU3AOIS41AOIS46LOI13:[41, 45]:killed=False) and (Rook:AOIS43AOIU4AODU4SDL21:[41, 28, 38]:killed=False) output are both equal to child
+2016/05/02 13:20:57 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False) and (Rook:AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[41, 28, 45, 38]:killed=False) output are both equal to child
+2016/05/02 13:20:57 root  DEBUG     | running mutant
+2016/05/02 13:20:57 root  DEBUG     | compiling mutant
+2016/05/02 13:20:57 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6//*.java
+2016/05/02 13:20:58 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6/ ChessUnitTestRunner
+2016/05/02 13:20:58 root  DEBUG     | running mutant
+2016/05/02 13:20:58 root  DEBUG     | compiling mutant
+2016/05/02 13:20:58 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:20:58 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:20:58 root  DEBUG     | parent1: (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6:[33, 34, 41, 45, 27, 28, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:58 root  DEBUG     | parent2: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:20:58 root  DEBUG     | child: (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 41, 45, 27, 28, 29]:killed=False): ('true\n', None)
+2016/05/02 13:20:58 root  DEBUG     | running mutant
+2016/05/02 13:20:58 root  DEBUG     | compiling mutant
+2016/05/02 13:20:58 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44//*.java
+2016/05/02 13:20:59 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2AORB8AOIS44/ ChessUnitTestRunner
+2016/05/02 13:20:59 root  DEBUG     | running mutant
+2016/05/02 13:20:59 root  DEBUG     | compiling mutant
+2016/05/02 13:20:59 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:00 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:00 root  DEBUG     | parent1: (Rook:AORB16AODU2AORB8AOIS44:[33, 34, 27, 41]:killed=False): ('true\n', None)
+2016/05/02 13:21:00 root  DEBUG     | parent2: (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:00 root  DEBUG     | child: (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6:[33, 34, 41, 45, 27, 28, 29]:killed=False): ('true\n', None)
+2016/05/02 13:21:00 root  DEBUG     | running mutant
+2016/05/02 13:21:00 root  DEBUG     | compiling mutant
+2016/05/02 13:21:00 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2//*.java
+2016/05/02 13:21:00 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB16AODU2/ ChessUnitTestRunner
+2016/05/02 13:21:01 root  DEBUG     | running mutant
+2016/05/02 13:21:01 root  DEBUG     | compiling mutant
+2016/05/02 13:21:01 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB8AOIS44/ -d /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB8AOIS44/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB8AOIS44//*.java
+2016/05/02 13:21:01 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/scratch/AORB8AOIS44/ ChessUnitTestRunner
+2016/05/02 13:21:02 root  DEBUG     | parent1: (Rook:AORB16AODU2:[34, 27]:killed=False): ('true\n', None)
+2016/05/02 13:21:02 root  DEBUG     | parent2: (Rook:AORB8AOIS44:[33, 41]:killed=False): ('true\n', None)
+2016/05/02 13:21:02 root  DEBUG     | child: (Rook:AORB16AODU2AORB8AOIS44:[33, 34, 27, 41]:killed=False): ('true\n', None)
+2016/05/02 13:21:02 root  DEBUG     | running mutant
+2016/05/02 13:21:02 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AORB16/ ChessUnitTestRunner
+2016/05/02 13:21:02 root  DEBUG     | running mutant
+2016/05/02 13:21:02 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AODU2/ ChessUnitTestRunner
+2016/05/02 13:21:02 root  DEBUG     | parent1: (Rook:AORB16:[34]:killed=False): ('true\n', None)
+2016/05/02 13:21:02 root  DEBUG     | parent2: (Rook:AODU2:[27]:killed=False): ('true\n', None)
+2016/05/02 13:21:02 root  DEBUG     | child: (Rook:AORB16AODU2:[34, 27]:killed=False): ('true\n', None)
+2016/05/02 13:21:02 root  DEBUG     | (Rook:AORB16:[34]:killed=False) and (Rook:AODU2:[27]:killed=False) output are both equal to child
+2016/05/02 13:21:02 root  DEBUG     | running mutant
+2016/05/02 13:21:02 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AORB8/ ChessUnitTestRunner
+2016/05/02 13:21:03 root  DEBUG     | running mutant
+2016/05/02 13:21:03 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS44/ ChessUnitTestRunner
+2016/05/02 13:21:03 root  DEBUG     | parent1: (Rook:AORB8:[33]:killed=False): ('true\n', None)
+2016/05/02 13:21:03 root  DEBUG     | parent2: (Rook:AOIS44:[41]:killed=False): ('true\n', None)
+2016/05/02 13:21:03 root  DEBUG     | child: (Rook:AORB8AOIS44:[33, 41]:killed=False): ('true\n', None)
+2016/05/02 13:21:03 root  DEBUG     | (Rook:AORB8:[33]:killed=False) and (Rook:AOIS44:[41]:killed=False) output are both equal to child
+2016/05/02 13:21:03 root  DEBUG     | (Rook:AORB16AODU2:[34, 27]:killed=False) and (Rook:AORB8AOIS44:[33, 41]:killed=False) output are both equal to child
+2016/05/02 13:21:03 root  DEBUG     | running mutant
+2016/05/02 13:21:03 root  DEBUG     | compiling mutant
+2016/05/02 13:21:03 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:03 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:03 root  DEBUG     | running mutant
+2016/05/02 13:21:03 root  DEBUG     | compiling mutant
+2016/05/02 13:21:03 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:03 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:04 root  DEBUG     | parent1: (Rook:AOIS48ROR6:[45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:04 root  DEBUG     | parent2: (Rook:AOIS42ODL6:[41, 28]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:04 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:04 root  DEBUG     | running mutant
+2016/05/02 13:21:04 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS48/ ChessUnitTestRunner
+2016/05/02 13:21:04 root  DEBUG     | running mutant
+2016/05/02 13:21:04 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ROR6/ ChessUnitTestRunner
+2016/05/02 13:21:04 root  DEBUG     | parent1: (Rook:AOIS48:[45]:killed=False): ('true\n', None)
+2016/05/02 13:21:04 root  DEBUG     | parent2: (Rook:ROR6:[29]:killed=False): ('true\n', None)
+2016/05/02 13:21:04 root  DEBUG     | child: (Rook:AOIS48ROR6:[45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:04 root  DEBUG     | (Rook:AOIS48:[45]:killed=False) and (Rook:ROR6:[29]:killed=False) output both differ from child
+2016/05/02 13:21:04 root  DEBUG     | running mutant
+2016/05/02 13:21:04 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS42/ ChessUnitTestRunner
+2016/05/02 13:21:04 root  DEBUG     | running mutant
+2016/05/02 13:21:04 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL6/ ChessUnitTestRunner
+2016/05/02 13:21:05 root  DEBUG     | parent1: (Rook:AOIS42:[41]:killed=False): ('true\n', None)
+2016/05/02 13:21:05 root  DEBUG     | parent2: (Rook:ODL6:[28]:killed=False): ('true\n', None)
+2016/05/02 13:21:05 root  DEBUG     | child: (Rook:AOIS42ODL6:[41, 28]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:05 root  DEBUG     | (Rook:AOIS42:[41]:killed=False) and (Rook:ODL6:[28]:killed=False) output both differ from child
+2016/05/02 13:21:05 root  DEBUG     | (Rook:AOIS48ROR6:[45, 29]:killed=False) and (Rook:AOIS42ODL6:[41, 28]:killed=False) output are both equal to child
+2016/05/02 13:21:05 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False) output differs from child
+2016/05/02 13:21:05 root  DEBUG     | running mutant
+2016/05/02 13:21:05 root  DEBUG     | compiling mutant
+2016/05/02 13:21:05 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:05 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:05 root  DEBUG     | running mutant
+2016/05/02 13:21:05 root  DEBUG     | compiling mutant
+2016/05/02 13:21:05 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:05 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:05 root  DEBUG     | parent1: (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:05 root  DEBUG     | parent2: (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:05 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:05 root  DEBUG     | running mutant
+2016/05/02 13:21:05 root  DEBUG     | compiling mutant
+2016/05/02 13:21:05 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:06 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:06 root  DEBUG     | running mutant
+2016/05/02 13:21:06 root  DEBUG     | compiling mutant
+2016/05/02 13:21:06 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:06 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:06 root  DEBUG     | parent1: (Rook:AOIS48ROR6:[45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:06 root  DEBUG     | parent2: (Rook:AOIS42ODL6:[41, 28]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:06 root  DEBUG     | child: (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:06 root  DEBUG     | running mutant
+2016/05/02 13:21:06 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS48/ ChessUnitTestRunner
+2016/05/02 13:21:06 root  DEBUG     | running mutant
+2016/05/02 13:21:06 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ROR6/ ChessUnitTestRunner
+2016/05/02 13:21:07 root  DEBUG     | parent1: (Rook:AOIS48:[45]:killed=False): ('true\n', None)
+2016/05/02 13:21:07 root  DEBUG     | parent2: (Rook:ROR6:[29]:killed=False): ('true\n', None)
+2016/05/02 13:21:07 root  DEBUG     | child: (Rook:AOIS48ROR6:[45, 29]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:07 root  DEBUG     | (Rook:AOIS48:[45]:killed=False) and (Rook:ROR6:[29]:killed=False) output both differ from child
+2016/05/02 13:21:07 root  DEBUG     | running mutant
+2016/05/02 13:21:07 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS42/ ChessUnitTestRunner
+2016/05/02 13:21:07 root  DEBUG     | running mutant
+2016/05/02 13:21:07 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL6/ ChessUnitTestRunner
+2016/05/02 13:21:07 root  DEBUG     | parent1: (Rook:AOIS42:[41]:killed=False): ('true\n', None)
+2016/05/02 13:21:07 root  DEBUG     | parent2: (Rook:ODL6:[28]:killed=False): ('true\n', None)
+2016/05/02 13:21:07 root  DEBUG     | child: (Rook:AOIS42ODL6:[41, 28]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:07 root  DEBUG     | (Rook:AOIS42:[41]:killed=False) and (Rook:ODL6:[28]:killed=False) output both differ from child
+2016/05/02 13:21:07 root  DEBUG     | (Rook:AOIS48ROR6:[45, 29]:killed=False) and (Rook:AOIS42ODL6:[41, 28]:killed=False) output are both equal to child
+2016/05/02 13:21:07 root  DEBUG     | running mutant
+2016/05/02 13:21:07 root  DEBUG     | compiling mutant
+2016/05/02 13:21:07 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:07 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:08 root  DEBUG     | running mutant
+2016/05/02 13:21:08 root  DEBUG     | compiling mutant
+2016/05/02 13:21:08 root  DEBUG     | javac -cp ${CLASSPATH}:testset/:classes/: -d  /*.java
+2016/05/02 13:21:08 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/: ChessUnitTestRunner
+2016/05/02 13:21:08 root  DEBUG     | parent1: (Rook:AOIS45AOIS47:[45]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:08 root  DEBUG     | parent2: (Rook:LOI14ODL4:[41, 27]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:08 root  DEBUG     | child: (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:08 root  DEBUG     | running mutant
+2016/05/02 13:21:08 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS45/ ChessUnitTestRunner
+2016/05/02 13:21:08 root  DEBUG     | running mutant
+2016/05/02 13:21:08 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS47/ ChessUnitTestRunner
+2016/05/02 13:21:09 root  DEBUG     | parent1: (Rook:AOIS45:[45]:killed=False): ('true\n', None)
+2016/05/02 13:21:09 root  DEBUG     | parent2: (Rook:AOIS47:[45]:killed=False): ('true\n', None)
+2016/05/02 13:21:09 root  DEBUG     | child: (Rook:AOIS45AOIS47:[45]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS45:[45]:killed=False) and (Rook:AOIS47:[45]:killed=False) output both differ from child
+2016/05/02 13:21:09 root  DEBUG     | running mutant
+2016/05/02 13:21:09 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/LOI14/ ChessUnitTestRunner
+2016/05/02 13:21:09 root  DEBUG     | running mutant
+2016/05/02 13:21:09 root  DEBUG     | timeout 3 java -cp ${CLASSPATH}:testset/:classes/:/s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL4/ ChessUnitTestRunner
+2016/05/02 13:21:09 root  DEBUG     | parent1: (Rook:LOI14:[41]:killed=False): ('true\n', None)
+2016/05/02 13:21:09 root  DEBUG     | parent2: (Rook:ODL4:[27]:killed=False): ('true\n', None)
+2016/05/02 13:21:09 root  DEBUG     | child: (Rook:LOI14ODL4:[41, 27]:killed=False): ('initializationError(ChessUnitTests): Rook\nfalse\n', None)
+2016/05/02 13:21:09 root  DEBUG     | (Rook:LOI14:[41]:killed=False) and (Rook:ODL4:[27]:killed=False) output both differ from child
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS45AOIS47:[45]:killed=False) and (Rook:LOI14ODL4:[41, 27]:killed=False) output are both equal to child
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6:[41, 28, 45, 29]:killed=False) and (Rook:AOIS45AOIS47LOI14ODL4:[41, 27, 45]:killed=False) output are both equal to child
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[41, 27, 28, 45, 29]:killed=False) output differs from child
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4AOIU3AOIS41AOIS46LOI13AOIS43AOIU4AODU4SDL21:[38, 41, 45, 27, 28, 29]:killed=False) and (Rook:AORB16AODU2AORB8AOIS44AOIS48ROR6AOIS42ODL6AOIS48ROR6AOIS42ODL6AOIS45AOIS47LOI14ODL4:[33, 34, 41, 45, 27, 28, 29]:killed=False) output both differ from child
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS48:[45]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS48/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:ROR6:[29]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ROR6/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS42:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS42/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:ODL6:[28]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL6/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS45:[45]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS45/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS47:[45]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS47/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:LOI14:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/LOI14/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:ODL4:[27]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/ODL4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIU3:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIU3/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS41:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS41/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS46:[45]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS46/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:LOI13:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/LOI13/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIS43:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIS43/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AOIU4:[41]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AOIU4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AODU4:[28]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AODU4/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:SDL21:[38]:killed=False) is possibly killable
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/SDL21/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/killable/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AORB16:[34]:killed=False) is possibly equivalent
+2016/05/02 13:21:09 root  DEBUG     | =========== original ==============
+32:                int colPos;
+33:                rowPos = this.getRow() + horDirection[direction] * OffSet;
+34:                colPos = this.getColumn() + verDirection[direction] * OffSet;
+35:                position = onePossibleMove( rowPos, colPos );
+36:                if (onePossibleMove( rowPos, colPos ) != null) {
+=========== mutant ================
+32:                int colPos;
+33:                rowPos = this.getRow() + horDirection[direction] * OffSet;
+34:                colPos = this.getColumn() - verDirection[direction] * OffSet;
+35:                position = onePossibleMove( rowPos, colPos );
+36:                if (onePossibleMove( rowPos, colPos ) != null) {
+===================================
+
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AORB16/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/equivalent/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AODU2:[27]:killed=False) is possibly equivalent
+2016/05/02 13:21:09 root  DEBUG     | =========== original ==============
+25:        java.util.ArrayList<String> returnList = new java.util.ArrayList<String>();
+26:        java.lang.String position;
+27:        int[] horDirection = { -1, +1, 0, 0 };
+28:        int[] verDirection = { 0, 0, -1, +1 };
+29:        for (int direction = 0; direction < 4; direction++) {
+=========== mutant ================
+25:        java.util.ArrayList<String> returnList = new java.util.ArrayList<String>();
+26:        java.lang.String position;
+27:        int[] horDirection = { -1, 1, 0, 0 };
+28:        int[] verDirection = { 0, 0, -1, +1 };
+29:        for (int direction = 0; direction < 4; direction++) {
+===================================
+
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AODU2/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/equivalent/
+2016/05/02 13:21:09 root  DEBUG     | (Rook:AORB8:[33]:killed=False) is possibly equivalent
+2016/05/02 13:21:09 root  DEBUG     | =========== original ==============
+31:                int rowPos;
+32:                int colPos;
+33:                rowPos = this.getRow() + horDirection[direction] * OffSet;
+34:                colPos = this.getColumn() + verDirection[direction] * OffSet;
+35:                position = onePossibleMove( rowPos, colPos );
+=========== mutant ================
+31:                int rowPos;
+32:                int colPos;
+33:                rowPos = this.getRow() - horDirection[direction] * OffSet;
+34:                colPos = this.getColumn() + verDirection[direction] * OffSet;
+35:                position = onePossibleMove( rowPos, colPos );
+===================================
+
+2016/05/02 13:21:09 root  DEBUG     | cp -r /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/fom_kill/foms/AORB8/ /s/chopin/b/grad/fout/Documents/cs580A5/project/hom_classifier/hom_classifier/equivalent/
+2016/05/02 13:21:10 root  DEBUG     | (Rook:AOIS44:[41]:killed=False) is possibly equivalent
+2016/05/02 13:21:10 root  DEBUG     | =========== original ==============
+39:                            break;
+40:                        } else {
+41:                            returnList.add( onePossibleMove( rowPos, colPos ) );
+42:                            break;
+43:                        }
+=========== mutant ================
+39:                            break;
+40:                        } else {
+41:                            returnList.add( onePossibleMove( rowPos, colPos-- ) );
+42:                            break;
+43:                        }
+===================================

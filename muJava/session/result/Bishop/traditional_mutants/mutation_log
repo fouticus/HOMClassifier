@@ -1,0 +1,172 @@
+AORB_1:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => OffSet / horDirection[direction]
+AORB_2:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => OffSet % horDirection[direction]
+AORB_3:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => OffSet + horDirection[direction]
+AORB_4:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => OffSet - horDirection[direction]
+AORB_5:34:java.util.ArrayList_legalMoves():this.getRow() + OffSet * horDirection[direction] => this.getRow() * (OffSet * horDirection[direction])
+AORB_6:34:java.util.ArrayList_legalMoves():this.getRow() + OffSet * horDirection[direction] => this.getRow() / (OffSet * horDirection[direction])
+AORB_7:34:java.util.ArrayList_legalMoves():this.getRow() + OffSet * horDirection[direction] => this.getRow() % (OffSet * horDirection[direction])
+AORB_8:34:java.util.ArrayList_legalMoves():this.getRow() + OffSet * horDirection[direction] => this.getRow() - OffSet * horDirection[direction]
+AORB_9:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => OffSet / verDirection[direction]
+AORB_10:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => OffSet % verDirection[direction]
+AORB_11:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => OffSet + verDirection[direction]
+AORB_12:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => OffSet - verDirection[direction]
+AORB_13:35:java.util.ArrayList_legalMoves():this.getColumn() + OffSet * verDirection[direction] => this.getColumn() * (OffSet * verDirection[direction])
+AORB_14:35:java.util.ArrayList_legalMoves():this.getColumn() + OffSet * verDirection[direction] => this.getColumn() / (OffSet * verDirection[direction])
+AORB_15:35:java.util.ArrayList_legalMoves():this.getColumn() + OffSet * verDirection[direction] => this.getColumn() % (OffSet * verDirection[direction])
+AORB_16:35:java.util.ArrayList_legalMoves():this.getColumn() + OffSet * verDirection[direction] => this.getColumn() - OffSet * verDirection[direction]
+AORS_1:30:java.util.ArrayList_legalMoves():direction++ => direction--
+AORS_2:31:java.util.ArrayList_legalMoves():OffSet++ => OffSet--
+AODU_1:28:java.util.ArrayList_legalMoves():-1 => 1
+AODU_2:28:java.util.ArrayList_legalMoves():-1 => 1
+AODU_3:29:java.util.ArrayList_legalMoves():-1 => 1
+AODU_4:29:java.util.ArrayList_legalMoves():+1 => 1
+AODU_5:29:java.util.ArrayList_legalMoves():-1 => 1
+AOIU_1:36:java.util.ArrayList_legalMoves():rowPos => -rowPos
+AOIU_2:36:java.util.ArrayList_legalMoves():colPos => -colPos
+AOIU_3:42:java.util.ArrayList_legalMoves():rowPos => -rowPos
+AOIU_4:42:java.util.ArrayList_legalMoves():colPos => -colPos
+AOIU_5:46:java.util.ArrayList_legalMoves():rowPos => -rowPos
+AOIU_6:46:java.util.ArrayList_legalMoves():colPos => -colPos
+AOIS_1:30:java.util.ArrayList_legalMoves():direction => ++direction
+AOIS_2:30:java.util.ArrayList_legalMoves():direction => --direction
+AOIS_3:30:java.util.ArrayList_legalMoves():direction => direction++
+AOIS_4:30:java.util.ArrayList_legalMoves():direction => direction--
+AOIS_5:31:java.util.ArrayList_legalMoves():OffSet => ++OffSet
+AOIS_6:31:java.util.ArrayList_legalMoves():OffSet => --OffSet
+AOIS_7:31:java.util.ArrayList_legalMoves():OffSet => OffSet++
+AOIS_8:31:java.util.ArrayList_legalMoves():OffSet => OffSet--
+AOIS_9:34:java.util.ArrayList_legalMoves():OffSet => ++OffSet
+AOIS_10:34:java.util.ArrayList_legalMoves():OffSet => --OffSet
+AOIS_11:34:java.util.ArrayList_legalMoves():OffSet => OffSet++
+AOIS_12:34:java.util.ArrayList_legalMoves():OffSet => OffSet--
+AOIS_13:34:java.util.ArrayList_legalMoves():direction => ++direction
+AOIS_14:34:java.util.ArrayList_legalMoves():direction => --direction
+AOIS_15:34:java.util.ArrayList_legalMoves():direction => direction++
+AOIS_16:34:java.util.ArrayList_legalMoves():direction => direction--
+AOIS_17:35:java.util.ArrayList_legalMoves():OffSet => ++OffSet
+AOIS_18:35:java.util.ArrayList_legalMoves():OffSet => --OffSet
+AOIS_19:35:java.util.ArrayList_legalMoves():OffSet => OffSet++
+AOIS_20:35:java.util.ArrayList_legalMoves():OffSet => OffSet--
+AOIS_21:35:java.util.ArrayList_legalMoves():direction => ++direction
+AOIS_22:35:java.util.ArrayList_legalMoves():direction => --direction
+AOIS_23:35:java.util.ArrayList_legalMoves():direction => direction++
+AOIS_24:35:java.util.ArrayList_legalMoves():direction => direction--
+AOIS_25:36:java.util.ArrayList_legalMoves():rowPos => ++rowPos
+AOIS_26:36:java.util.ArrayList_legalMoves():rowPos => --rowPos
+AOIS_27:36:java.util.ArrayList_legalMoves():rowPos => rowPos++
+AOIS_28:36:java.util.ArrayList_legalMoves():rowPos => rowPos--
+AOIS_29:36:java.util.ArrayList_legalMoves():colPos => ++colPos
+AOIS_30:36:java.util.ArrayList_legalMoves():colPos => --colPos
+AOIS_31:36:java.util.ArrayList_legalMoves():colPos => colPos++
+AOIS_32:36:java.util.ArrayList_legalMoves():colPos => colPos--
+AOIS_33:42:java.util.ArrayList_legalMoves():rowPos => rowPos++
+AOIS_34:42:java.util.ArrayList_legalMoves():rowPos => rowPos--
+AOIS_35:42:java.util.ArrayList_legalMoves():colPos => colPos++
+AOIS_36:42:java.util.ArrayList_legalMoves():colPos => colPos--
+AOIS_37:46:java.util.ArrayList_legalMoves():rowPos => rowPos++
+AOIS_38:46:java.util.ArrayList_legalMoves():rowPos => rowPos--
+AOIS_39:46:java.util.ArrayList_legalMoves():colPos => colPos++
+AOIS_40:46:java.util.ArrayList_legalMoves():colPos => colPos--
+ROR_1:17:java.lang.String_toString(): color == ChessPiece.Color.WHITE  =>   color != ChessPiece.Color.WHITE
+ROR_2:30:java.util.ArrayList_legalMoves(): direction < 4  =>   direction > 4
+ROR_3:30:java.util.ArrayList_legalMoves(): direction < 4  =>   direction >= 4
+ROR_4:30:java.util.ArrayList_legalMoves(): direction < 4  =>   direction <= 4
+ROR_5:30:java.util.ArrayList_legalMoves(): direction < 4  =>   direction == 4
+ROR_6:30:java.util.ArrayList_legalMoves(): direction < 4  =>   direction != 4
+ROR_7:30:java.util.ArrayList_legalMoves(): direction < 4  =>   true
+ROR_8:30:java.util.ArrayList_legalMoves(): direction < 4  =>   false
+ROR_9:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   OffSet > 7
+ROR_10:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   OffSet >= 7
+ROR_11:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   OffSet < 7
+ROR_12:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   OffSet == 7
+ROR_13:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   OffSet != 7
+ROR_14:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   true
+ROR_15:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>   false
+ROR_16:37:java.util.ArrayList_legalMoves(): position != null  =>   position == null
+ROR_17:38:java.util.ArrayList_legalMoves(): board.getPiece( position ) != null  =>   board.getPiece( position ) == null
+COI_1:17:java.lang.String_toString(): color == ChessPiece.Color.WHITE  =>  !(color == ChessPiece.Color.WHITE)
+COI_2:30:java.util.ArrayList_legalMoves(): direction < 4  =>  !(direction < 4)
+COI_3:31:java.util.ArrayList_legalMoves(): OffSet <= 7  =>  !(OffSet <= 7)
+COI_4:37:java.util.ArrayList_legalMoves(): position != null  =>  !(position != null)
+COI_5:38:java.util.ArrayList_legalMoves(): board.getPiece( position ) != null  =>  !(board.getPiece( position ) != null)
+LOI_1:30:java.util.ArrayList_legalMoves():direction => ~direction
+LOI_2:30:java.util.ArrayList_legalMoves():direction => ~direction
+LOI_3:31:java.util.ArrayList_legalMoves():OffSet => ~OffSet
+LOI_4:31:java.util.ArrayList_legalMoves():OffSet => ~OffSet
+LOI_5:34:java.util.ArrayList_legalMoves():OffSet => ~OffSet
+LOI_6:34:java.util.ArrayList_legalMoves():direction => ~direction
+LOI_7:35:java.util.ArrayList_legalMoves():OffSet => ~OffSet
+LOI_8:35:java.util.ArrayList_legalMoves():direction => ~direction
+LOI_9:36:java.util.ArrayList_legalMoves():rowPos => ~rowPos
+LOI_10:36:java.util.ArrayList_legalMoves():colPos => ~colPos
+LOI_11:42:java.util.ArrayList_legalMoves():rowPos => ~rowPos
+LOI_12:42:java.util.ArrayList_legalMoves():colPos => ~colPos
+LOI_13:46:java.util.ArrayList_legalMoves():rowPos => ~rowPos
+LOI_14:46:java.util.ArrayList_legalMoves():colPos => ~colPos
+SDL_1:17:java.lang.String_toString(): if (color == ChessPiece.Color.WHITE) {     return \"♗\"; } else {     return \"♝\"; }  =>  
+SDL_2:22:java.lang.String_toString(): if (color == ChessPiece.Color.WHITE) {     return \"♗\"; } else {     return \"♝\"; }  =>   if (true) {     return \"♗\"; } else {     return \"♝\"; }
+SDL_3:19:java.lang.String_toString(): return \"♗\";  =>   return \"\";
+SDL_4:21:java.lang.String_toString(): return \"♝\";  =>   return \"\";
+SDL_5:31:java.util.ArrayList_legalMoves(): java.util.ArrayList<String> returnList = new java.util.ArrayList<String>(); java.lang.String position; int[] horDirection = { 1, 1, -1, -1 }; int[] verDirection = { 1, -1, +1, -1 }; for (int direction = 0; direction < 4; direction++) {     for (int OffSet = 1; OffSet <= 7; OffSet++) {         int rowPos;         int colPos;         rowPos = this.getRow() + OffSet * horDirection[direction];         colPos = this.getColumn() + OffSet * verDirection[direction];         position = onePossibleMove( rowPos, colPos );         if (position != null) {             if (board.getPiece( position ) != null) {                 if (board.getPiece( position ).getColor().equals( this.getColor() )) {                     break;                 } else {                     returnList.add( onePossibleMove( rowPos, colPos ) );                     break;                 }             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );             }         }     } } return returnList;  =>   java.util.ArrayList<String> returnList = new java.util.ArrayList<String>(); java.lang.String position; int[] horDirection = { 1, 1, -1, -1 }; int[] verDirection = { 1, -1, +1, -1 }; return returnList;
+SDL_6:31:java.util.ArrayList_legalMoves(): for (int OffSet = 1; OffSet <= 7; OffSet++) {     int rowPos;     int colPos;     rowPos = this.getRow() + OffSet * horDirection[direction];     colPos = this.getColumn() + OffSet * verDirection[direction];     position = onePossibleMove( rowPos, colPos );     if (position != null) {         if (board.getPiece( position ) != null) {             if (board.getPiece( position ).getColor().equals( this.getColor() )) {                 break;             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );                 break;             }         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );         }     } }  =>  
+SDL_7:51:java.util.ArrayList_legalMoves(): for (int direction = 0; direction < 4; direction++) {     for (int OffSet = 1; OffSet <= 7; OffSet++) {         int rowPos;         int colPos;         rowPos = this.getRow() + OffSet * horDirection[direction];         colPos = this.getColumn() + OffSet * verDirection[direction];         position = onePossibleMove( rowPos, colPos );         if (position != null) {             if (board.getPiece( position ) != null) {                 if (board.getPiece( position ).getColor().equals( this.getColor() )) {                     break;                 } else {                     returnList.add( onePossibleMove( rowPos, colPos ) );                     break;                 }             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );             }         }     } }  =>   for (int direction = 0;; direction++) {     for (int OffSet = 1; OffSet <= 7; OffSet++) {         int rowPos;         int colPos;         rowPos = this.getRow() + OffSet * horDirection[direction];         colPos = this.getColumn() + OffSet * verDirection[direction];         position = onePossibleMove( rowPos, colPos );         if (position != null) {             if (board.getPiece( position ) != null) {                 if (board.getPiece( position ).getColor().equals( this.getColor() )) {                     break;                 } else {                     returnList.add( onePossibleMove( rowPos, colPos ) );                     break;                 }             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );             }         }     } }
+SDL_8:51:java.util.ArrayList_legalMoves(): for (int direction = 0; direction < 4; direction++) {     for (int OffSet = 1; OffSet <= 7; OffSet++) {         int rowPos;         int colPos;         rowPos = this.getRow() + OffSet * horDirection[direction];         colPos = this.getColumn() + OffSet * verDirection[direction];         position = onePossibleMove( rowPos, colPos );         if (position != null) {             if (board.getPiece( position ) != null) {                 if (board.getPiece( position ).getColor().equals( this.getColor() )) {                     break;                 } else {                     returnList.add( onePossibleMove( rowPos, colPos ) );                     break;                 }             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );             }         }     } }  =>   for (int direction = 0; direction < 4;) {     for (int OffSet = 1; OffSet <= 7; OffSet++) {         int rowPos;         int colPos;         rowPos = this.getRow() + OffSet * horDirection[direction];         colPos = this.getColumn() + OffSet * verDirection[direction];         position = onePossibleMove( rowPos, colPos );         if (position != null) {             if (board.getPiece( position ) != null) {                 if (board.getPiece( position ).getColor().equals( this.getColor() )) {                     break;                 } else {                     returnList.add( onePossibleMove( rowPos, colPos ) );                     break;                 }             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );             }         }     } }
+SDL_9:48:java.util.ArrayList_legalMoves(): int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; colPos = this.getColumn() + OffSet * verDirection[direction]; position = onePossibleMove( rowPos, colPos ); if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }  =>   int rowPos; int colPos; colPos = this.getColumn() + OffSet * verDirection[direction]; position = onePossibleMove( rowPos, colPos ); if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }
+SDL_10:48:java.util.ArrayList_legalMoves(): int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; colPos = this.getColumn() + OffSet * verDirection[direction]; position = onePossibleMove( rowPos, colPos ); if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }  =>   int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; position = onePossibleMove( rowPos, colPos ); if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }
+SDL_11:48:java.util.ArrayList_legalMoves(): int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; colPos = this.getColumn() + OffSet * verDirection[direction]; position = onePossibleMove( rowPos, colPos ); if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }  =>   int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; colPos = this.getColumn() + OffSet * verDirection[direction]; if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }
+SDL_12:37:java.util.ArrayList_legalMoves(): int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; colPos = this.getColumn() + OffSet * verDirection[direction]; position = onePossibleMove( rowPos, colPos ); if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }  =>   int rowPos; int colPos; rowPos = this.getRow() + OffSet * horDirection[direction]; colPos = this.getColumn() + OffSet * verDirection[direction]; position = onePossibleMove( rowPos, colPos );
+SDL_13:50:java.util.ArrayList_legalMoves(): for (int OffSet = 1; OffSet <= 7; OffSet++) {     int rowPos;     int colPos;     rowPos = this.getRow() + OffSet * horDirection[direction];     colPos = this.getColumn() + OffSet * verDirection[direction];     position = onePossibleMove( rowPos, colPos );     if (position != null) {         if (board.getPiece( position ) != null) {             if (board.getPiece( position ).getColor().equals( this.getColor() )) {                 break;             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );                 break;             }         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );         }     } }  =>   for (int OffSet = 1;; OffSet++) {     int rowPos;     int colPos;     rowPos = this.getRow() + OffSet * horDirection[direction];     colPos = this.getColumn() + OffSet * verDirection[direction];     position = onePossibleMove( rowPos, colPos );     if (position != null) {         if (board.getPiece( position ) != null) {             if (board.getPiece( position ).getColor().equals( this.getColor() )) {                 break;             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );                 break;             }         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );         }     } }
+SDL_14:50:java.util.ArrayList_legalMoves(): for (int OffSet = 1; OffSet <= 7; OffSet++) {     int rowPos;     int colPos;     rowPos = this.getRow() + OffSet * horDirection[direction];     colPos = this.getColumn() + OffSet * verDirection[direction];     position = onePossibleMove( rowPos, colPos );     if (position != null) {         if (board.getPiece( position ) != null) {             if (board.getPiece( position ).getColor().equals( this.getColor() )) {                 break;             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );                 break;             }         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );         }     } }  =>   for (int OffSet = 1; OffSet <= 7;) {     int rowPos;     int colPos;     rowPos = this.getRow() + OffSet * horDirection[direction];     colPos = this.getColumn() + OffSet * verDirection[direction];     position = onePossibleMove( rowPos, colPos );     if (position != null) {         if (board.getPiece( position ) != null) {             if (board.getPiece( position ).getColor().equals( this.getColor() )) {                 break;             } else {                 returnList.add( onePossibleMove( rowPos, colPos ) );                 break;             }         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );         }     } }
+SDL_15:38:java.util.ArrayList_legalMoves(): if (board.getPiece( position ) != null) {     if (board.getPiece( position ).getColor().equals( this.getColor() )) {         break;     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );         break;     } } else {     returnList.add( onePossibleMove( rowPos, colPos ) ); }  =>  
+SDL_16:49:java.util.ArrayList_legalMoves(): if (position != null) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }  =>   if (true) {     if (board.getPiece( position ) != null) {         if (board.getPiece( position ).getColor().equals( this.getColor() )) {             break;         } else {             returnList.add( onePossibleMove( rowPos, colPos ) );             break;         }     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );     } }
+SDL_17:39:java.util.ArrayList_legalMoves(): if (board.getPiece( position ).getColor().equals( this.getColor() )) {     break; } else {     returnList.add( onePossibleMove( rowPos, colPos ) );     break; }  =>  
+SDL_18:48:java.util.ArrayList_legalMoves(): if (board.getPiece( position ) != null) {     if (board.getPiece( position ).getColor().equals( this.getColor() )) {         break;     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );         break;     } } else {     returnList.add( onePossibleMove( rowPos, colPos ) ); }  =>   if (true) {     if (board.getPiece( position ).getColor().equals( this.getColor() )) {         break;     } else {         returnList.add( onePossibleMove( rowPos, colPos ) );         break;     } } else {     returnList.add( onePossibleMove( rowPos, colPos ) ); }
+SDL_19:46:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( rowPos, colPos ) );  =>  
+SDL_20:40:java.util.ArrayList_legalMoves(): break;  =>  
+SDL_21:45:java.util.ArrayList_legalMoves(): if (board.getPiece( position ).getColor().equals( this.getColor() )) {     break; } else {     returnList.add( onePossibleMove( rowPos, colPos ) );     break; }  =>   if (true) {     break; } else {     returnList.add( onePossibleMove( rowPos, colPos ) );     break; }
+SDL_22:43:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( rowPos, colPos ) ); break;  =>   break;
+SDL_23:43:java.util.ArrayList_legalMoves(): returnList.add( onePossibleMove( rowPos, colPos ) ); break;  =>   returnList.add( onePossibleMove( rowPos, colPos ) );
+VDL_1:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => ChessPiece.Color.WHITE
+VDL_2:30:java.util.ArrayList_legalMoves():direction < 4 => 4
+VDL_3:30:java.util.ArrayList_legalMoves():direction++ =>  
+VDL_4:31:java.util.ArrayList_legalMoves():OffSet <= 7 => 7
+VDL_5:31:java.util.ArrayList_legalMoves():OffSet++ =>  
+VDL_6:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => horDirection[direction]
+VDL_7:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => OffSet
+VDL_8:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => verDirection[direction]
+VDL_9:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => OffSet
+VDL_10:37:java.util.ArrayList_legalMoves():position != null => null
+ODL_1:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => color
+ODL_2:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => ChessPiece.Color.WHITE
+ODL_3:28:java.util.ArrayList_legalMoves():-1 => 1
+ODL_4:28:java.util.ArrayList_legalMoves():-1 => 1
+ODL_5:29:java.util.ArrayList_legalMoves():-1 => 1
+ODL_6:29:java.util.ArrayList_legalMoves():+1 => 1
+ODL_7:29:java.util.ArrayList_legalMoves():-1 => 1
+ODL_8:30:java.util.ArrayList_legalMoves():direction < 4 => direction
+ODL_9:30:java.util.ArrayList_legalMoves():direction < 4 => 4
+ODL_10:30:java.util.ArrayList_legalMoves():direction++ => direction
+ODL_11:31:java.util.ArrayList_legalMoves():OffSet <= 7 => OffSet
+ODL_12:31:java.util.ArrayList_legalMoves():OffSet <= 7 => 7
+ODL_13:31:java.util.ArrayList_legalMoves():OffSet++ => OffSet
+ODL_14:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => OffSet
+ODL_15:34:java.util.ArrayList_legalMoves():OffSet * horDirection[direction] => horDirection[direction]
+ODL_16:34:java.util.ArrayList_legalMoves():this.getRow() + OffSet * horDirection[direction] => this.getRow()
+ODL_17:34:java.util.ArrayList_legalMoves():this.getRow() + OffSet * horDirection[direction] => OffSet * horDirection[direction]
+ODL_18:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => OffSet
+ODL_19:35:java.util.ArrayList_legalMoves():OffSet * verDirection[direction] => verDirection[direction]
+ODL_20:35:java.util.ArrayList_legalMoves():this.getColumn() + OffSet * verDirection[direction] => this.getColumn()
+ODL_21:35:java.util.ArrayList_legalMoves():this.getColumn() + OffSet * verDirection[direction] => OffSet * verDirection[direction]
+ODL_22:37:java.util.ArrayList_legalMoves():position != null => position
+ODL_23:37:java.util.ArrayList_legalMoves():position != null => null
+ODL_24:38:java.util.ArrayList_legalMoves():board.getPiece( position ) != null => board.getPiece( position )
+ODL_25:38:java.util.ArrayList_legalMoves():board.getPiece( position ) != null => null
+CDL_1:28:java.util.ArrayList_legalMoves():-1 =>  
+CDL_2:28:java.util.ArrayList_legalMoves():-1 =>  
+CDL_3:29:java.util.ArrayList_legalMoves():-1 =>  
+CDL_4:29:java.util.ArrayList_legalMoves():+1 =>  
+CDL_5:29:java.util.ArrayList_legalMoves():-1 =>  
+CDL_6:30:java.util.ArrayList_legalMoves():direction < 4 => direction
+CDL_7:31:java.util.ArrayList_legalMoves():OffSet <= 7 => OffSet
+CDL_8:37:java.util.ArrayList_legalMoves():position != null => position
+CDL_9:38:java.util.ArrayList_legalMoves():board.getPiece( position ) != null => board.getPiece( position )

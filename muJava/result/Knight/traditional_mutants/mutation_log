@@ -1,0 +1,9 @@
+ROR_1:17:java.lang.String_toString(): color == ChessPiece.Color.WHITE  =>   color != ChessPiece.Color.WHITE
+COI_1:17:java.lang.String_toString(): color == ChessPiece.Color.WHITE  =>  !(color == ChessPiece.Color.WHITE)
+SDL_1:17:java.lang.String_toString(): if (color == ChessPiece.Color.WHITE) {     return \"♘\"; } else {     return \"♞\"; }  =>  
+SDL_2:22:java.lang.String_toString(): if (color == ChessPiece.Color.WHITE) {     return \"♘\"; } else {     return \"♞\"; }  =>   if (true) {     return \"♘\"; } else {     return \"♞\"; }
+SDL_3:19:java.lang.String_toString(): return \"♘\";  =>   return \"\";
+SDL_4:21:java.lang.String_toString(): return \"♞\";  =>   return \"\";
+VDL_1:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => ChessPiece.Color.WHITE
+ODL_1:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => color
+ODL_2:17:java.lang.String_toString():color == ChessPiece.Color.WHITE => ChessPiece.Color.WHITE
